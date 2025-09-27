@@ -1,0 +1,44 @@
+{
+  "id": "elara",
+  "title": "Elara",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "7.4.0"
+        }
+      }
+    ]
+  },
+  "description": "<p>Game customizations for Elaran rules and abilities.</p>",
+  "authors": [
+    {
+      "name": "Hazael",
+      "email": "gerardo.hazael@gmail.com",
+      "discord": "gerardo.hazael",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "elara": {
+      "pf2e-homebrew": {
+        "skills": {
+          "additional": {
+            "aura-control": {
+              "label": "Aura Control",
+              "attribute": "wis"
+            }
+          }
+        }
+      }
+    }
+  }
+}
