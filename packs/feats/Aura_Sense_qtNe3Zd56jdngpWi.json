@@ -1,0 +1,77 @@
+{
+    "folder": "7oNQ0IyLkw0kBi0s",
+    "name": "Aura Sense",
+    "type": "feat",
+    "effects": [],
+    "system": {
+        "description": {
+            "gm": "",
+            "value": "<p><em>You extend your aura in a sweeping pulse, searching for the faint signatures of life and power hidden in the unseen. Though this ripple reveals those who lurk in shadow, it also risks betraying your own presence.</em></p><hr /><p><strong>Effect</strong>: You emit a pulse of Aura to locate nearby entities. Each undetected creature within range must make an <span style=\"font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace\">@Check[will|against:aura-control|rollerRole:target]</span> saving throw against your Aura-Control DC.</p><hr /><ul><li data-start=\"597\" data-end=\"697\"><p data-start=\"599\" data-end=\"697\"><strong data-start=\"599\" data-end=\"619\">Critical Success</strong>: The creature resists your probing aura. Its concealment remains unchanged.</p></li><li data-start=\"698\" data-end=\"848\"><p data-start=\"700\" data-end=\"848\"><strong data-start=\"700\" data-end=\"711\">Success</strong>: The creature’s concealment is reduced by one step (e.g., from Undetected to Hidden, or from Hidden to Concealed).</p></li><li data-start=\"849\" data-end=\"921\"><p data-start=\"851\" data-end=\"921\"><strong data-start=\"851\" data-end=\"862\">Failure</strong>: The creature’s concealment is reduced by two steps.</p></li><li data-start=\"922\" data-end=\"1044\"><p data-start=\"924\" data-end=\"1044\"><strong data-start=\"924\" data-end=\"944\">Critical Failure</strong>: The creature’s concealment is reduced by three steps, potentially leaving it fully revealed.</p></li></ul><hr /><p><strong>Levels of concealment: </strong>Undetected --&gt; Hidden —&gt; Concealed</p><hr /><p><strong>Range:</strong></p><ul><li><p>Expert: 30 feet.</p></li><li><p>Master: 60 feet.</p></li><li><p>Legendary: 90 feet.</p></li></ul><hr /><p><strong data-start=\"775\" data-end=\"790\">Aura Attack</strong>: actions with this trait are subject to a multiple aura-attack penatly accumulated during a turn.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+            "version": 0.943,
+            "previous": {
+                "schema": 0.942,
+                "foundry": "13.348",
+                "system": "7.5.1"
+            }
+        },
+        "traits": {
+            "otherTags": [],
+            "value": [
+                "aura-attack"
+            ],
+            "rarity": "rare"
+        },
+        "publication": {
+            "title": "",
+            "authors": "",
+            "license": "OGL",
+            "remaster": false
+        },
+        "level": {
+            "value": 3
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Aura Control Feat"
+                },
+                {
+                    "value": "Trained in Aura Control"
+                }
+            ]
+        },
+        "location": null,
+        "subfeatures": {
+            "proficiencies": {},
+            "senses": {},
+            "suppressedFeatures": []
+        }
+    },
+    "img": "icons/magic/control/hypnosis-mesmerism-eye-tan.webp",
+    "flags": {},
+    "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1",
+        "createdTime": 1759008798919,
+        "modifiedTime": 1759008798919,
+        "lastModifiedBy": "A1YDIvn6uJrPX5yt"
+    },
+    "ownership": {
+        "default": 2
+    },
+    "_id": "qtNe3Zd56jdngpWi"
+}

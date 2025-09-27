@@ -1,0 +1,75 @@
+{
+    "folder": "7oNQ0IyLkw0kBi0s",
+    "name": "Advanced Aura Control",
+    "type": "feat",
+    "effects": [],
+    "system": {
+        "description": {
+            "gm": "",
+            "value": "<p>You learn the @UUID[Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7]{Telekinetic Projectile} spell as an inate spell, use your Aura-Control for the attack. </p><p>@Check[aura-control|against:ac|rollerRole:origin]</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+            "version": 0.943,
+            "previous": {
+                "schema": 0.942,
+                "foundry": "13.348",
+                "system": "7.5.1"
+            }
+        },
+        "traits": {
+            "otherTags": [],
+            "value": [],
+            "rarity": "rare"
+        },
+        "publication": {
+            "title": "",
+            "authors": "",
+            "license": "OGL",
+            "remaster": false
+        },
+        "level": {
+            "value": 3
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Aura Control Feat"
+                },
+                {
+                    "value": "Trained in Aura Control"
+                }
+            ]
+        },
+        "location": null,
+        "subfeatures": {
+            "proficiencies": {},
+            "senses": {},
+            "suppressedFeatures": []
+        }
+    },
+    "img": "icons/magic/control/debuff-energy-hold-pink.webp",
+    "flags": {},
+    "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1",
+        "createdTime": 1759008798919,
+        "modifiedTime": 1759008798919,
+        "lastModifiedBy": "A1YDIvn6uJrPX5yt"
+    },
+    "ownership": {
+        "default": 2
+    },
+    "_id": "h12zLZjarlXDeI6K"
+}

@@ -1,0 +1,94 @@
+{
+    "folder": "7oNQ0IyLkw0kBi0s",
+    "name": "Aura Constriction",
+    "type": "feat",
+    "effects": [],
+    "system": {
+        "_migration": {
+            "version": 0.943,
+            "previous": null
+        },
+        "description": {
+            "value": "<p><em data-start=\"759\" data-end=\"860\">Your aura doesn’t just suppress — it crashes down on your opponent’s spirit with suffocating force.</em></p><hr /><p data-start=\"864\" data-end=\"1047\">When you use @UUID[Item.vxTZxI7Z5BcHFFmb]{Aura Suppression}, you may spend one additional action to intensify the assault.</p><p>Using the same results from the Aura Suppression roll:</p><ul data-start=\"1049\" data-end=\"1315\"><li data-start=\"1049\" data-end=\"1177\"><p data-start=\"1051\" data-end=\"1177\"><strong data-start=\"1051\" data-end=\"1062\">Failure</strong>: In addition to the normal effects, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p></li><li data-start=\"1178\" data-end=\"1315\"><p data-start=\"1180\" data-end=\"1315\"><strong data-start=\"1180\" data-end=\"1200\">Critical Failure</strong>: In addition to the normal effects, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p></li></ul><hr /><p><strong data-start=\"497\" data-end=\"510\">Legendary</strong>: This action becomes a free action instead.</p>",
+            "gm": ""
+        },
+        "publication": {
+            "title": "",
+            "authors": "",
+            "license": "OGL",
+            "remaster": false
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "path": "system.actions.value",
+                "mode": "override",
+                "value": 0,
+                "predicate": [
+                    "proficiency:skill:aura-control:legendary"
+                ],
+                "priority": 60
+            },
+            {
+                "key": "ActiveEffectLike",
+                "path": "system.actionType.value",
+                "mode": "override",
+                "value": "free",
+                "predicate": [
+                    "proficiency:skill:aura-control:legendary"
+                ],
+                "priority": 40
+            }
+        ],
+        "slug": "aura-constriction",
+        "traits": {
+            "otherTags": [],
+            "value": [
+                "aura-attack"
+            ],
+            "rarity": "common"
+        },
+        "level": {
+            "value": 15
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Aura-control"
+                },
+                {
+                    "value": "Aura Suppression Feat"
+                }
+            ]
+        },
+        "subfeatures": {
+            "proficiencies": {},
+            "senses": {},
+            "suppressedFeatures": []
+        },
+        "location": null
+    },
+    "img": "icons/magic/control/debuff-chains-orb-movement-blue.webp",
+    "flags": {},
+    "_stats": {
+        "coreVersion": "13.348",
+        "systemId": "pf2e",
+        "systemVersion": "7.5.1",
+        "createdTime": 1759008798919,
+        "modifiedTime": 1759008798919,
+        "lastModifiedBy": "A1YDIvn6uJrPX5yt"
+    },
+    "ownership": {
+        "default": 0
+    },
+    "_id": "t7vSq9iyiXcsoKKb"
+}
