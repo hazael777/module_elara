@@ -3,8 +3,8 @@
   "title": "Elara",
   "type": "module",
   "description": "<p>Game customizations for Elaran rules and abilities.</p>",
-  "version": "0.1",
-  "download": "https://github.com/hazael777/module_elara/releases/download/v0.1/elara.zip",
+  "version": "0.2",
+  "download": "https://github.com/hazael777/module_elara/releases/download/v0.2/elara.zip",
   "manifest": "https://hazael777.github.io/module_elara/module.json",
   "compatibility": {
     "minimum": "13",
