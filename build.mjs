@@ -17,9 +17,23 @@ if (existsSync(outDir)) {
 console.log("Clean Finished");
 
 // Build packs
+
 const packFolders = await fs.readdir("packs");
+console.log("Pack folders found:", packFolders);
 for (const pack of packFolders) {
-    await compilePack(`packs/${pack}`, path.resolve(outDir, `packs/${pack}`));
+    const srcPath = `packs/${pack}`;
+    const destPath = path.resolve(outDir, `packs/${pack}`);
+    const files = await fs.readdir(srcPath);
+    console.log(`Compiling pack: ${pack}`);
+    console.log(`  Source: ${srcPath}`);
+    console.log(`  Destination: ${destPath}`);
+    console.log(`  Files:`, files);
+    try {
+        await compilePack(srcPath, destPath);
+        console.log(`  Pack ${pack} compiled successfully.`);
+    } catch (err) {
+        console.error(`  Error compiling pack ${pack}:`, err);
+    }
 }
 
 console.log("Build Packs Finished");

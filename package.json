@@ -1,6 +1,6 @@
 {
-    "name": "sf2e-anachronism",
-    "version": "1.0",
+    "name": "elara",
+    "version": "0.1",
     "description": "",
     "scripts": {
         "build": "node build.mjs",
@@ -8,10 +8,12 @@
         "extractPacks": "node extract-packs.mjs",
         "link": "node link.mjs"
     },
-    "author": "Ian Blackstone",
-    "license": "Apache-2.0",
+    "author": "Hazael",
+    "license": "MIT",
     "devDependencies": {
-        "@foundryvtt/foundryvtt-cli": "^1.1.0",
-        "@types/prompts": "^2.4.9"
+        "@foundryvtt/foundryvtt-cli": "^1.0.3",
+        "@types/node": "^22.5.3",
+        "@types/prompts": "^2.4.9",
+        "prompts": "^2.4.2"
     }
 }
