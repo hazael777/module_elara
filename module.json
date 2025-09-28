@@ -1,6 +1,7 @@
 {
   "id": "elara",
   "title": "Elara",
+  "description": "<p>Game customizations for Elaran rules and abilities.</p>",
   "version": "0.1",
   "download": "https://github.com/hazael777/module_elara/releases/download/v0.1/elara.zip",
   "manifest": "https://hazael777.github.io/module_elara/module.json",
@@ -20,7 +21,6 @@
       }
     ]
   },
-  "description": "<p>Game customizations for Elaran rules and abilities.</p>",
   "packs": [
     {
       "name": "feats",
@@ -36,14 +36,6 @@
       "flags": {}
     }
   ],
-  "authors": [
-    {
-      "name": "Hazael",
-      "email": "gerardo.hazael@gmail.com",
-      "discord": "gerardo.hazael",
-      "flags": {}
-    }
-  ],
   "flags": {
     "elara": {
       "pf2e-homebrew": {
@@ -54,8 +46,21 @@
               "attribute": "wis"
             }
           }
-        }
+        },
+        "featTraits": {
+          "anchoring": {
+            "label": "Aura-attack",
+            "description": "Actions with this trait are subject to the Multiple Aura-attack Penalty."
+          }
       }
     }
-  }
+  },
+  "authors": [
+    {
+      "name": "Hazael",
+      "email": "gerardo.hazael@gmail.com",
+      "discord": "gerardo.hazael",
+      "flags": {}
+    }
+  ]
 }
