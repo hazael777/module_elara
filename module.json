@@ -1,6 +1,7 @@
 {
   "id": "elara",
   "title": "Elara",
+  "type": "module",
   "description": "<p>Game customizations for Elaran rules and abilities.</p>",
   "version": "0.1",
   "download": "https://github.com/hazael777/module_elara/releases/download/v0.1/elara.zip",
@@ -50,8 +51,9 @@
         "featTraits": {
           "anchoring": {
             "label": "Aura-attack",
-            "description": "Actions with this trait are subject to the Multiple Aura-attack Penalty."
+            "description": "Actions with this trait are subject to the Multiple Aura-Attack Penalty."
           }
+        }
       }
     }
   },
