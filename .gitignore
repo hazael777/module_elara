@@ -1,0 +1,40 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled output
+*.tsbuildinfo
+
+# FoundryVTT CLI cache
+/.foundryvtt/
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+.env.*
+
+# Misc
+*.zip
+
+# Ignore extracted packs (source JSON)
+/packs/**/*.json
+
+# Do not ignore source files
+!build.mjs
+!extract-packs.mjs
+!link.mjs
+!module.json
+!package.json
