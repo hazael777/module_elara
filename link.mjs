@@ -22,7 +22,7 @@ if (!dataPathStats?.isDirectory()) {
     process.exit(1);
 }
 
-const symlinkPath = path.resolve(dataPath, "modules", "sf2e-anachronism");
+const symlinkPath = path.resolve(dataPath, "modules", "elara");
 const symlinkStats = fs.lstatSync(symlinkPath, { throwIfNoEntry: false });
 if (symlinkStats) {
     const atPath = symlinkStats.isDirectory() ? "folder" : symlinkStats.isSymbolicLink() ? "symlink" : "file";
@@ -31,7 +31,7 @@ if (symlinkStats) {
             type: "confirm",
             name: "value",
             initial: false,
-            message: `A "sf2e-anachronism" ${atPath} already exists in the "modules" subfolder. Replace with new symlink?`,
+            message: `A "elara" ${atPath} already exists in the "modules" subfolder. Replace with new symlink?`,
         })
     ).value;
     if (!proceed) {
