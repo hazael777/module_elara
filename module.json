@@ -21,6 +21,21 @@
     ]
   },
   "description": "<p>Game customizations for Elaran rules and abilities.</p>",
+  "packs": [
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
   "authors": [
     {
       "name": "Hazael",
