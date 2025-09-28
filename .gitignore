@@ -29,9 +29,6 @@ Thumbs.db
 # Misc
 *.zip
 
-# Ignore extracted packs (source JSON)
-/packs/**/*.json
-
 # Do not ignore source files
 !build.mjs
 !extract-packs.mjs

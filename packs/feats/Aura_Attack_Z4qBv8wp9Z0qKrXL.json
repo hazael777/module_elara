@@ -1,0 +1,76 @@
+{
+  "folder": null,
+  "name": "Aura Attack",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><em data-start=\"227\" data-end=\"352\">Having suppressed your foe’s aura, you twist your own essence into a weapon, striking directly at the core of their spirit.</em></p><hr /><p><strong data-start=\"356\" data-end=\"366\">Effect</strong>: Using the same result from your @UUID[Item.vxTZxI7Z5BcHFFmb]{Aura Suppression} attempt:</p><ul><li><p><strong>Success</strong>: the target takes half your Aura-Control skill in spirit damage. @Damage[(@actor.skills.aura-control.mod/2)[spirit]]</p></li><li><strong>Critical Success: </strong>the target takes your full Aura-Control skill in spirit damage. @Damage[@actor.skills.occultism.mod[spirit]]</li></ul><hr /><p><strong>Aura Attack</strong>: actions with this trait are subject to a multiple aura-attack penatly accumulated during a turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "skill"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Master in Aura Control"
+        },
+        {
+          "value": "Aura Supression Feat"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/control/energy-stream-link-large-blue.webp",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2"
+  },
+  "_id": "Z4qBv8wp9Z0qKrXL",
+  "ownership": {
+    "default": 0,
+    "qA45GVv5hySaf9b5": 3
+  },
+  "sort": 0,
+  "_key": "!items!Z4qBv8wp9Z0qKrXL"
+}
