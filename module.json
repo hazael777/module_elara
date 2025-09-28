@@ -1,7 +1,9 @@
 {
   "id": "elara",
   "title": "Elara",
-  "version": "1.0.0",
+  "version": "0.1",
+  "download": "https://github.com/hazael777/module_elara/releases/download/v0.1/elara.zip",
+  "manifest": "https://github.com/hazael777/module_elara/module.json",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
