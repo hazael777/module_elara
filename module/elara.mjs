@@ -70,7 +70,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.auraControl.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 1) {
       ui.notifications.warn(`${actor.name} must be at least trained in Aura Control to add this feat!`);
-      removeFeat(actor, feats.auraControl.uuid);
+      removeFeat(actor, feats.auraControl.name);
     }
   }
 
@@ -78,7 +78,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.advancedAuraControl.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 1 || !hasAuraControlFeat) {
       ui.notifications.warn(`${actor.name} must be at least trained in Aura Control and have the Aura Control Feat to add this feat!`);
-      removeFeat(actor, feats.advancedAuraControl.uuid);
+      removeFeat(actor, feats.advancedAuraControl.name);
     }
   }
 
@@ -86,7 +86,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.auraManeuver.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 2 || !hasAdvancedAuraControlFeat) {
       ui.notifications.warn(`${actor.name} must be at least expert in Aura Control and have the Advanced Aura Control Feat to add this feat!`);
-      removeFeat(actor, feats.auraManeuver.uuid);
+      removeFeat(actor, feats.auraManeuver.name);
     }
   }
 
@@ -94,7 +94,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.auraFlight.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 3 || !hasAuraManeuverFeat) {
       ui.notifications.warn(`${actor.name} must be at least master in Aura Control and have the Aura Maneuver Feat to add this feat!`);
-      removeFeat(actor, feats.auraFlight.uuid);
+      removeFeat(actor, feats.auraFlight.name);
     }
   }
 
@@ -102,7 +102,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.auraSuppression.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 1 || !hasAuraControlFeat) {
       ui.notifications.warn(`${actor.name} must be at least trained in Aura Control and have the Aura Control Feat to add this feat!`);
-      removeFeat(actor, feats.auraSuppression.uuid);
+      removeFeat(actor, feats.auraSuppression.name);
     }
   }
 
@@ -110,7 +110,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.auraAttack.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 2 || !hasAuraSuppressionFeat) {
       ui.notifications.warn(`${actor.name} must be at least expert in Aura Control and have the Aura Suppression Feat to add this feat!`);
-      removeFeat(actor, feats.auraAttack.uuid);
+      removeFeat(actor, feats.auraAttack.name);
     }
   }
 
@@ -118,7 +118,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.auraConstriction.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 3 || !hasAuraAttackFeat) {
       ui.notifications.warn(`${actor.name} must be at least master in Aura Control and have the Aura Attack Feat to add this feat!`);
-      removeFeat(actor, feats.auraConstriction.uuid);
+      removeFeat(actor, feats.auraConstriction.name);
     }
   }
 
@@ -126,7 +126,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.auraSense.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 1 || !hasAuraControlFeat) {
       ui.notifications.warn(`${actor.name} must be at least trained in Aura Control and have the Aura Control Feat to add this feat!`);
-      removeFeat(actor, feats.auraSense.uuid);
+      removeFeat(actor, feats.auraSense.name);
     }
   }
 
@@ -134,7 +134,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.auraAnalysis.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 2 || !hasAuraSenseFeat) {
       ui.notifications.warn(`${actor.name} must be at least expert in Aura Control and have the Aura Sense Feat to add this feat!`);
-      removeFeat(actor, feats.auraAnalysis.uuid);
+      removeFeat(actor, feats.auraAnalysis.name);
     }
   }
 
@@ -142,7 +142,7 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
   if (data?.uuid === feats.subtleAura.uuid) {
     if (!auraControlSkill || auraControlSkill.rank < 3 || !hasAuraAnalysisFeat) {
       ui.notifications.warn(`${actor.name} must be at least master in Aura Control and have the Aura Analysis Feat to add this feat!`);
-      removeFeat(actor, feats.subtleAura.uuid);
+      removeFeat(actor, feats.subtleAura.name);
     }
   }
 
