@@ -38,8 +38,10 @@
       "flags": {}
     }
   ],
+  "esmodules": ["module/elara.mjs"],
   "flags": {
     "elara": {
+      "checkRequirements": true,
       "pf2e-homebrew": {
         "skills": {
           "additional": {
