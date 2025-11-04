@@ -1,7 +1,6 @@
 {
   "id": "elara",
   "title": "Elara",
-  "type": "module",
   "description": "<p>Game customizations for Elaran rules and abilities.</p>",
   "version": "0.3",
   "download": "https://github.com/hazael777/module_elara/releases/download/v0.3/elara.zip",
