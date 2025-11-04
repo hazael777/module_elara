@@ -58,13 +58,13 @@ Hooks.on("dropActorSheetData", async (actor, sheet, data) => {
 
   // Potential prerequisite constants
   const auraControlSkill = actor.system?.skills?.["aura-control"];
-  const hasAuraControlFeat = actor.items.some(i => i.uuid === feats.auraControl.uuid);
-  const hasAdvancedAuraControlFeat = actor.items.some(i => i.uuid === feats.advancedAuraControl.uuid);
-  const hasAuraManeuverFeat = actor.items.some(i => i.uuid === feats.auraManeuver.uuid);
-  const hasAuraSuppressionFeat = actor.items.some(i => i.uuid === feats.auraSuppression.uuid);
-  const hasAuraAttackFeat = actor.items.some(i => i.uuid === feats.auraAttack.uuid);
-  const hasAuraSenseFeat = actor.items.some(i => i.uuid === feats.auraSense.uuid);
-  const hasAuraAnalysisFeat = actor.items.some(i => i.uuid === feats.auraAnalysis.uuid);
+  const hasAuraControlFeat = actor.items.some(i => i.name === feats.auraControl.name);
+  const hasAdvancedAuraControlFeat = actor.items.some(i => i.name === feats.advancedAuraControl.name);
+  const hasAuraManeuverFeat = actor.items.some(i => i.name === feats.auraManeuver.name);
+  const hasAuraSuppressionFeat = actor.items.some(i => i.name === feats.auraSuppression.name);
+  const hasAuraAttackFeat = actor.items.some(i => i.name === feats.auraAttack.name);
+  const hasAuraSenseFeat = actor.items.some(i => i.name === feats.auraSense.name);
+  const hasAuraAnalysisFeat = actor.items.some(i => i.name === feats.auraAnalysis.name);
 
   //Aura Control prerequisite check
   if (data?.uuid === feats.auraControl.uuid) {
