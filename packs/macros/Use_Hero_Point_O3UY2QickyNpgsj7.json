@@ -1,0 +1,25 @@
+{
+  "name": "Use Hero Point",
+  "type": "script",
+  "command": "//console.log(token);\n//console.log(actor);\n\nlet currentPoints = actor.system.resources.heroPoints.value;\nlet newPoints = currentPoints - 1;\nlet message = \"\";\n\n//ui.notifications.info(actor.name +\" current points:\" + currentPoints);\nif(currentPoints > 0) {\n   actor.update({ \"system.resources.heroPoints.value\": newPoints});\n   message = actor.name +\" now has \" + newPoints + \" Hero Points\";\n   ui.notifications.warn(message);\n}\nelse {\n   message = actor.name + \" does not have enough Hero Points\";\n   ui.notifications.error(message);\n}\n\nChatMessage.create({\n    user: game.user._id,\n    speaker: ChatMessage.getSpeaker(),\n    content: message\n});",
+  "img": "icons/magic/unholy/hand-marked-pink.webp",
+  "author": "qp7L9geXBa6D8uvq",
+  "scope": "global",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.7.0"
+  },
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "_id": "O3UY2QickyNpgsj7",
+  "sort": 600000,
+  "_key": "!macros!O3UY2QickyNpgsj7"
+}

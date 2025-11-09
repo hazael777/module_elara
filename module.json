@@ -2,7 +2,7 @@
   "id": "elara",
   "title": "Elara",
   "description": "<p>Game customizations for Elaran rules and abilities.</p>",
-  "version": "0.3",
+  "version": "0.4",
   "download": "https://github.com/hazael777/module_elara/releases/download/v0.3/elara.zip",
   "manifest": "https://raw.githubusercontent.com/hazael777/module_elara/refs/heads/main/module.json",
   "url": "https://github.com/hazael777/module_elara/",
@@ -37,6 +37,12 @@
           "packs": [
             "feats"
           ]
+        },
+        {
+          "name": "Macros",
+          "packs": [
+            "macros"
+          ]
         }
       ]
     }
@@ -47,8 +53,21 @@
       "label": "Feats",
       "path": "packs/feats",
       "type": "Item",
-      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "banner": "ui/banners/item-banner.webp",
       "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+    ,
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "banner": "ui/banners/macro-banner.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"

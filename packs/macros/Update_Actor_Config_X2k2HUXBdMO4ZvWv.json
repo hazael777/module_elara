@@ -1,0 +1,25 @@
+{
+  "name": "Update Actor Config",
+  "type": "script",
+  "author": "qp7L9geXBa6D8uvq",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "// Define the new token configuration\nconst newPrototypeTokenConfig = {\n   appendNumber: true,\n   displayBars: CONST.TOKEN_DISPLAY_MODES.HOVER\n};\n\n// Apply the new token configuration to all actors\ngame.actors.contents.forEach(actor => {\n   if (actor.type == 'npc') {\n      console.log(actor.name);\n      actor.update({ \"prototypeToken\": newPrototypeTokenConfig });\n   }\n});\n\nui.notifications.info(\"Token configuration updated for all actors.\");",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.7.0"
+  },
+  "_id": "X2k2HUXBdMO4ZvWv",
+  "sort": 200000,
+  "_key": "!macros!X2k2HUXBdMO4ZvWv"
+}

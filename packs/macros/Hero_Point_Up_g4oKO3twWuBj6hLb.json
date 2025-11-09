@@ -1,0 +1,25 @@
+{
+  "name": "Hero Point Up",
+  "type": "chat",
+  "command": "// ==== CONFIG ====\nconst partyActorName = \"The Party\"; // <-- change if your Party has a different name\nconst capAt = 3; // hero point cap\nconst incrementBy = 1; // how many to add\n// ================\n\n// Find the Party actor\nlet partyActor = game.actors.find(a => a.name === partyActorName && a.type === \"party\");\n// Fallback: if no name match, but you only have one Party actor, use it\nif (!partyActor) partyActor = game.actors.find(a => a.type === \"party\");\n\nif (!partyActor) {\n  ui.notifications.error(`No PF2e Party actor found${partyActorName ? ` named \"${partyActorName}\"` : \"\"}.`);\n  return;\n}\n\n// PF2e keeps members on the party actor; depending on version this could be in different paths.\n// Try common locations in order:\nconst members =\n  partyActor.system?.details?.members ??\n  partyActor.system?.campaign?.members ??\n  partyActor.system?.members ??\n  [];\n\nif (!Array.isArray(members) || members.length === 0) {\n  ui.notifications.warn(`Party \"${partyActor.name}\" has no listed members.`);\n  return;\n}\n\nasync function resolveMemberActor(member) {\n  // Most robust: resolve by uuid if present\n  const uuid = member.uuid ?? member.actorUUID ?? member.actorUuid ?? member.actor?.uuid;\n  if (uuid) {\n    const doc = await fromUuid(uuid);\n    if (doc?.documentName === \"Actor\" || doc instanceof Actor) return doc;\n    // If UUID points to a TokenDocument, grab its actor\n    if (doc?.documentName === \"Token\" || doc?.documentName === \"TokenDocument\") return doc.actor ?? null;\n  }\n  // Fallback to actorId if present\n  const id = member.actorId ?? member.id ?? member.actor?.id ?? member.actor?._id;\n  if (id) return game.actors.get(id) ?? null;\n\n  return null;\n}\n\nlet message = `The new Hero Points tally for <b>${partyActor.name}</b> is:<br><ul>`;\nlet updated = 0;\nlet unresolved = [];\n\n// Process each member\nfor (const m of members) {\n  const actor = await resolveMemberActor(m);\n  if (!actor) { unresolved.push(m); continue; }\n\n  const current = actor.system?.resources?.heroPoints?.value ?? 0;\n  const newVal = Math.min(current + incrementBy, capAt);\n\n  if (newVal !== current) {\n    await actor.update({ \"system.resources.heroPoints.value\": newVal });\n    updated++;\n  }\n  message += `<li>${actor.name}: ${newVal}</li>`;\n}\n\nmessage += `</ul>`;\nif (unresolved.length) {\n  message += `<p><i>Note:</i> ${unresolved.length} member(s) could not be resolved (missing/invalid UUID or actorId).</p>`;\n}\n\n// Post to chat\nChatMessage.create({\n  user: game.user.id,\n  speaker: ChatMessage.getSpeaker(),\n  content: message\n});\n\n// Optional toast\nui.notifications.info(`Hero Points processed for ${members.length} party member(s); updated ${updated}.`);",
+  "img": "icons/magic/defensive/shield-barrier-glowing-triangle-magenta.webp",
+  "author": "qp7L9geXBa6D8uvq",
+  "scope": "global",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.7.0"
+  },
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "_id": "g4oKO3twWuBj6hLb",
+  "sort": 700000,
+  "_key": "!macros!g4oKO3twWuBj6hLb"
+}

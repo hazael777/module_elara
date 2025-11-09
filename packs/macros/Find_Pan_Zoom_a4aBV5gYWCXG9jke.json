@@ -1,0 +1,25 @@
+{
+  "name": "Find-Pan-Zoom",
+  "type": "script",
+  "command": "// Get all player-owned tokens with a valid actor\nconst playerTokens = canvas.tokens.placeables.filter(t => t.actor && t.actor.hasPlayerOwner);\n\nif (!playerTokens.length) {\n  ui.notifications.error(\"No player-owned tokens found on the scene.\");\n  return;\n}\n\n// Create dropdown options\nlet options = \"\";\nfor (let token of playerTokens) {\n  options += `<option value=\"${token.id}\">${token.name}</option>`;\n}\n\n// Create the dialog\nnew Dialog({\n  title: \"Select a Token\",\n  content: `\n    <form>\n      <div class=\"form-group\">\n        <label>Choose a token:</label>\n        <select id=\"tokenSelect\">${options}</select>\n      </div>\n    </form>\n  `,\n  buttons: {\n    go: {\n      label: \"Go\",\n      callback: (html) => {\n        const tokenId = html.find(\"#tokenSelect\").val();\n        const targetToken = canvas.tokens.get(tokenId);\n        if (!targetToken) return;\n\n        // Pan & zoom\n        canvas.animatePan({\n          x: targetToken.center.x,\n          y: targetToken.center.y,\n          scale: 1.5, // zoom level\n          duration: 750\n        });\n      }\n    },\n    cancel: {\n      label: \"Cancel\"\n    }\n  },\n  default: \"go\"\n}).render(true);",
+  "img": "icons/svg/blind.svg",
+  "author": "qp7L9geXBa6D8uvq",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.7.0"
+  },
+  "_id": "a4aBV5gYWCXG9jke",
+  "sort": 500000,
+  "_key": "!macros!a4aBV5gYWCXG9jke"
+}

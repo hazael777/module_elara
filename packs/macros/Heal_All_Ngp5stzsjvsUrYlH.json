@@ -1,0 +1,25 @@
+{
+  "name": "Heal All",
+  "type": "script",
+  "command": "//let actors = game.users.filter(u => u.character).map(u => u.character);\n// ==== CONFIG ====\nconst partyActorName = \"The Party\"; // <-- change if your Party has a different name\n\n// Find the Party actor\nlet partyActor = game.actors.find(a => a.name === partyActorName && a.type === \"party\");\n// Fallback: if no name match, but you only have one Party actor, use it\nif (!partyActor) partyActor = game.actors.find(a => a.type === \"party\");\n\nif (!partyActor) {\n  ui.notifications.error(`No PF2e Party actor found${partyActorName ? ` named \"${partyActorName}\"` : \"\"}.`);\n  return;\n}\n\n// PF2e keeps members on the party actor; depending on version this could be in different paths.\n// Try common locations in order:\nconst members =\n  partyActor.system?.details?.members ??\n  partyActor.system?.campaign?.members ??\n  partyActor.system?.members ??\n  [];\n\nif (!Array.isArray(members) || members.length === 0) {\n  ui.notifications.warn(`Party \"${partyActor.name}\" has no listed members.`);\n  return;\n}\n\nasync function resolveMemberActor(member) {\n  // Most robust: resolve by uuid if present\n  const uuid = member.uuid ?? member.actorUUID ?? member.actorUuid ?? member.actor?.uuid;\n  if (uuid) {\n    const doc = await fromUuid(uuid);\n    if (doc?.documentName === \"Actor\" || doc instanceof Actor) return doc;\n    // If UUID points to a TokenDocument, grab its actor\n    if (doc?.documentName === \"Token\" || doc?.documentName === \"TokenDocument\") return doc.actor ?? null;\n  }\n  // Fallback to actorId if present\n  const id = member.actorId ?? member.id ?? member.actor?.id ?? member.actor?._id;\n  if (id) return game.actors.get(id) ?? null;\n\n  return null;\n}\n\nfor (const m of members) {\n  const actor = await resolveMemberActor(m);\n  if (!actor) { unresolved.push(m); continue; }\n  let maxHP = actor.system.attributes.hp.max;\n  actor.update({ \"system.attributes.hp.value\": maxHP });\n  \n}\n\n/*\nactors.forEach(actor => {\n    console.log(actor.name);\n    const maxHP = actor.system.attributes.hp.max;\n    actor.update({ \"system.attributes.hp.value\": maxHP });\n});\n*/\n\nconst message = \"All party members have been fully healed!\";\n// Post to chat\nChatMessage.create({\n  user: game.user.id,\n  speaker: ChatMessage.getSpeaker(),\n  content: message\n});",
+  "img": "icons/magic/holy/chalice-glowing-gold-water.webp",
+  "author": "qp7L9geXBa6D8uvq",
+  "scope": "global",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.7.0"
+  },
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "_id": "Ngp5stzsjvsUrYlH",
+  "sort": 400000,
+  "_key": "!macros!Ngp5stzsjvsUrYlH"
+}
