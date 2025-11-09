@@ -22,35 +22,10 @@
       }
     ]
   },
-  "packFolders": [
-    {
-      "name": "Elara",
-      "sorting": "m",
-      "color": "#5e0000",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "folders": [
-        {
-          "name": "Feats",
-          "packs": [
-            "feats"
-          ]
-        },
-        {
-          "name": "Macros",
-          "packs": [
-            "macros"
-          ]
-        }
-      ]
-    }
-  ],
   "packs": [
     {
       "name": "feats",
-      "label": "Feats",
+      "label": "Elara.Feats",
       "path": "packs/feats",
       "type": "Item",
       "banner": "ui/banners/item-banner.webp",
@@ -64,7 +39,7 @@
     ,
     {
       "name": "macros",
-      "label": "Macros",
+      "label": "Elara.Macros",
       "path": "packs/macros",
       "type": "Macro",
       "banner": "ui/banners/macro-banner.webp",
@@ -73,6 +48,21 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Elara",
+      "sorting": "m",
+      "color": "#0000FF",
+      "packs": [
+        "feats",
+        "macros"
+      ],
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "esmodules": [
