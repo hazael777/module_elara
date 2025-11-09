@@ -1,0 +1,90 @@
+{
+  "name": "Adventurer Tags",
+  "type": "treasure",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This item is connected magically to the Adventuring Guild.</p>\n<p>It serves as identification.</p>\n<p>It contains the following information:</p>\n<ul>\n<li>Name</li>\n<li>Rank</li>\n<li>Homebase</li>\n<li>Commendations if any</li>\n</ul>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.952,
+      "previous": {
+        "schema": 0.948,
+        "foundry": "13.350",
+        "system": "7.7.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {},
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "tiny",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "modules/elara/art/items/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "category": null,
+    "temporary": false
+  },
+  "img": "modules/elara/art/items/dog_tags.avif",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.7.0"
+  },
+  "_id": "ldfnQoR2Jsw7O9RC",
+  "sort": 0,
+  "_key": "!items!ldfnQoR2Jsw7O9RC"
+}

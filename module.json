@@ -22,6 +22,40 @@
       }
     ]
   },
+  "packFolders": [
+    {
+      "name": "Elara",
+      "sorting": "m",
+      "color": "#0000FF",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "folders": [
+        {
+          "name": "Feats",
+          "packs": [
+            "elara.feats"
+          ],
+          "color": "#0000FF"
+        },
+        {
+          "name": "Macros",
+          "packs": [
+            "elara.macros"
+          ],
+          "color": "#0000FF"
+        },
+        {
+          "name": "Items",
+          "packs": [
+            "elara.items"
+          ],
+          "color": "#0000FF"
+        }
+      ]
+    }
+  ],
   "packs": [
     {
       "name": "feats",
@@ -35,8 +69,7 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
-    }
-    ,
+    },
     {
       "name": "macros",
       "label": "Elara.Macros",
@@ -48,21 +81,19 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
-    }
-  ],
-  "packFolders": [
+    },
     {
-      "name": "Elara",
-      "sorting": "m",
-      "color": "#0000FF",
-      "packs": [
-        "feats",
-        "macros"
-      ],
+      "name": "items",
+      "label": "Elara.Items",
+      "path": "packs/items",
+      "type": "Item",
+      "banner": "ui/banners/item-banner.webp",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     }
   ],
   "esmodules": [
