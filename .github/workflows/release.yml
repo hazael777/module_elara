@@ -1,0 +1,42 @@
+name: Release FoundryVTT Module
+
+on:
+  push:
+    tags:
+      - 'v*.*.*' # e.g. v1.2.3
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
+
+      - name: Update module.json
+        run: |
+          sed -i "s/\"version\": \".*\"/\"version\": \"${VERSION}\"/" module.json
+          sed -i "s#\"download\": \".*\"#\"download\": \"https://github.com/${{ github.repository }}/releases/download/v${VERSION}/module_elara.zip\"#" module.json
+
+      - name: Create zip file
+        run: |
+          mkdir -p dist
+          zip -r "dist/module_elara.zip" . -x "*.git*" ".github/*" "dist/*"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ env.VERSION }}
+          name: Release v${{ env.VERSION }}
+          body: "Automated release for version v${{ env.VERSION }}"
+          files: |
+            dist/module_elara.zip
+            module.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
