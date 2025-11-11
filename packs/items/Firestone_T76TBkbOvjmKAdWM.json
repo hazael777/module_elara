@@ -1,0 +1,93 @@
+{
+  "folder": "3dMkSqEhFF8JyjKP",
+  "name": "Firestone",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A farmer might keep one nestled by the stove through winter, simmering stews for his family. Traveling merchants rely on pocket-sized firestones to spark campfires along lonely roads. In grand bathhouses, larger stones lie hidden beneath tiled floors, warming pools to decadent temperatures. Whether for survival or luxury, these enchanted stones offer reliable heat wherever they’re carried.</p><hr /><p><strong>Activation</strong>: 1 action (manipulate, concentrate)<br /><strong>Frequency</strong>: Once per day<br /><strong>Duration</strong>: 10 minutes</p><p><strong>Effect</strong>: Upon activation, the Firestone radiates heat for 10 minutes. During this time, it can be used to cook a simple meal, ignite a campfire, or warm a small space.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.948,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "tiny",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "_id": "T76TBkbOvjmKAdWM",
+  "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_key": "!items!T76TBkbOvjmKAdWM"
+}

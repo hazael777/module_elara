@@ -1,0 +1,93 @@
+{
+  "name": "Coldstone",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>In bustling cities, butchers rely on coldstones to keep meat fresh, while taverns chill ale for weary travelers. On the battlefield, soldiers press them against wounds to dull pain when healers are scarce. These enchanted stones are prized for their versatility and reliability in preserving and numbing through magical frost.</p><hr /><p><strong>Activation</strong>: 1 action (manipulate, concentrate)<br /><strong>Frequency</strong>: Once per day<br /><strong>Duration</strong>: 24 hours</p><p><strong>Effect</strong>: When activated and affixed to an object of 2 Bulk or less, the Coldstone gradually freezes it over the course of one minute. The item remains magically frozen for 24 hours, unaffected by ambient temperature</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.948,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "tiny",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "_id": "9KEXg8nMq9t4N7c4",
+  "img": "icons/commodities/gems/gem-rough-oval-teal.webp",
+  "folder": "3dMkSqEhFF8JyjKP",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_key": "!items!9KEXg8nMq9t4N7c4"
+}
