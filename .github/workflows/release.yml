@@ -41,7 +41,8 @@ jobs:
       - name: Create zip file
         run: |
           mkdir -p dist
-          zip -r "dist/module_elara.zip" . -x "*.git*" ".github/*" "dist/*"
+          cd build
+          zip -r "../dist/module_elara.zip" .
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
