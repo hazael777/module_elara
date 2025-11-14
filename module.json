@@ -22,40 +22,6 @@
       }
     ]
   },
-  "packFolders": [
-    {
-      "name": "Elara",
-      "sorting": "m",
-      "color": "#0000FF",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "folders": [
-        {
-          "name": "Feats",
-          "packs": [
-            "elara.feats"
-          ],
-          "color": "#0000FF"
-        },
-        {
-          "name": "Macros",
-          "packs": [
-            "elara.macros"
-          ],
-          "color": "#0000FF"
-        },
-        {
-          "name": "Items",
-          "packs": [
-            "elara.items"
-          ],
-          "color": "#0000FF"
-        }
-      ]
-    }
-  ],
   "packs": [
     {
       "name": "feats",
@@ -94,6 +60,21 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    }
+  ],
+     "packFolders": [
+    {
+      "name": "Elara",
+      "sorting": "a",
+      "color": "#00FFFF",
+      "ownership": {
+        "PLAYER": "NONE"
+      },
+      "packs": [
+        "feats",
+        "macros",
+        "items"
+      ]
     }
   ],
   "esmodules": [
