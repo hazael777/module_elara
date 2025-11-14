@@ -27,6 +27,17 @@ jobs:
           sed -i "s/\"version\": \".*\"/\"version\": \"${VERSION}\"/" module.json
           sed -i "s#\"download\": \".*\"#\"download\": \"https://github.com/${{ github.repository }}/releases/download/v${VERSION}/module_elara.zip\"#" module.json
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build packs
+        run: node build.mjs
+
       - name: Create zip file
         run: |
           mkdir -p dist
