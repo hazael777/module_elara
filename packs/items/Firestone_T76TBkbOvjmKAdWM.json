@@ -1,5 +1,5 @@
 {
-  "folder": "3dMkSqEhFF8JyjKP",
+  "folder": null,
   "name": "Firestone",
   "type": "equipment",
   "effects": [],
@@ -75,7 +75,7 @@
   },
   "_id": "T76TBkbOvjmKAdWM",
   "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
-  "sort": 0,
+  "sort": 50000,
   "ownership": {
     "default": 0,
     "5gbwR8UumxmHZULO": 3
