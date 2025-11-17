@@ -1,0 +1,103 @@
+{
+  "name": "Healstone (minor)",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A light blue magistone made of magicite attuned to magic specialized in accelerating the body's natural healing abilities.</p><p><strong>Activate </strong>Interact, Manipulate</p><p><strong>Frequency </strong>Once per day, plus overcharge</p><p><strong>Range</strong> Touch</p><hr /><p><strong>Effect </strong>The stone's color intensifies with light and heals its target by 2d8+16, after which the stone goes dim until your next daily preparations.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.948,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "healing",
+        "magical",
+        "manipulate",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 16
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "wand",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": false
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "img": "icons/commodities/gems/gem-faceted-oval-blue.webp",
+  "folder": "FcGK53dYzJdvNjVO",
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_id": "HY0EZ83w7OnlPbZn",
+  "sort": 150000,
+  "_key": "!items!HY0EZ83w7OnlPbZn"
+}

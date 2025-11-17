@@ -1,5 +1,5 @@
 {
-  "folder": null,
+  "folder": "FcGK53dYzJdvNjVO",
   "name": "Glowstone",
   "type": "equipment",
   "effects": [],
@@ -101,7 +101,7 @@
   },
   "_id": "x7azHxwL6Y4ZrWUN",
   "img": "icons/commodities/gems/gem-faceted-octagon-yellow.webp",
-  "sort": 25000,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "5gbwR8UumxmHZULO": 3
@@ -111,7 +111,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.6.4"
   },
