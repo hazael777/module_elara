@@ -1,7 +1,15 @@
 // Blocked items from compendium searches
 // Format: { uuid: "item name" }
 const BLOCKED_ITEMS = {
-  "Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO": "Resurrect"
+  "Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO": "Resurrect",
+  "Compendium.pf2e.spells-srd.Item.gIVaSCrLhhBzGHQY": "Reincarnate",
+  "Compendium.pf2e.spells-srd.Item.HpIJTVqgXorH9X0L": "Revival",
+  "Compendium.pf2e.spells-srd.Item.IkGYwHRLhkuoGReG": "Raise Dead",
+
+  "Compendium.pf2e.spells-srd.Item.69L70wKfGDY66Mk9": "Teleport",
+  "Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2":"Nature's Pathway",
+  "Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ": "Interplanar Teleport",
+  "Compendium.pf2e.spells-srd.Item.U13bC0tNgrlHoeTK": "Gate"
 };
 
 // Cache of blocked item names for faster filtering
