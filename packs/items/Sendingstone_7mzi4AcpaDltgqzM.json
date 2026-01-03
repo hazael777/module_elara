@@ -1,0 +1,94 @@
+{
+  "folder": "FcGK53dYzJdvNjVO",
+  "name": "Sendingstone",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Usage</strong> held in 1 hand; <strong>Bulk</strong> L<br /><strong>Activate</strong> 3 actions (concentrate, manipulate)<br /><strong>Frequency</strong> once per day<br /><strong>Requirements</strong> You must be holding the stone, and the paired stone must be held by another creature.</p><hr /><p><strong>Description</strong></p><p>Sendingstones are crafted in matched pairs, each carved from the same parent stone and etched with mirrored runes of connection. When held, each stone feels faintly warm, as though aware of its twin’s presence somewhere in the world.</p><hr /><p><strong>Effect</strong></p><p>You activate the Sendingstone to cast <strong>@UUID[Compendium.pf2e.spells-srd.Item.R9xqCBblkS5KE4y7]{Sending}</strong>, but with the following limitations:</p><ul><li>The message <strong>can only target the creature currently holding the paired stone</strong>.</li><li>The paired stone’s holder receives the message instantly, as if they were the target of the spell.</li><li>They may respond as normal for <em>Sending</em>, but only through their own stone.</li><li>If the paired stone is not attuned / invested to a creature, the activation fails and is not expended.</li></ul><hr /><p>The stones function only as a pair; if one is destroyed, the other becomes a mundane, inert rock.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.948,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 400
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "tiny",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "_id": "7mzi4AcpaDltgqzM",
+  "img": "icons/commodities/gems/gem-faceted-radiant-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "_key": "!items!7mzi4AcpaDltgqzM"
+}

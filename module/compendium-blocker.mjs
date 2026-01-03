@@ -7,9 +7,11 @@ const BLOCKED_ITEMS = {
   "Compendium.pf2e.spells-srd.Item.IkGYwHRLhkuoGReG": "Raise Dead",
 
   "Compendium.pf2e.spells-srd.Item.69L70wKfGDY66Mk9": "Teleport",
-  "Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2":"Nature's Pathway",
+  "Compendium.pf2e.spells-srd.Item.F1qxaqsEItmBura2": "Nature's Pathway",
   "Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ": "Interplanar Teleport",
-  "Compendium.pf2e.spells-srd.Item.U13bC0tNgrlHoeTK": "Gate"
+  "Compendium.pf2e.spells-srd.Item.U13bC0tNgrlHoeTK": "Gate",
+  "Compendium.pf2e.spells-srd.Item.5ZW1w9f4gWlSIuWA": "Teleportation Circle",
+  "Compendium.pf2e.spells-srd.Item.oKC36WjFD1jgqUN5": "Forest of Gates"
 };
 
 // Cache of blocked item names for faster filtering
