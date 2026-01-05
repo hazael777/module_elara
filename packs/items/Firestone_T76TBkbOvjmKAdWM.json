@@ -1,5 +1,5 @@
 {
-  "folder": "FcGK53dYzJdvNjVO",
+  "folder": "3dMkSqEhFF8JyjKP",
   "name": "Firestone",
   "type": "equipment",
   "effects": [],
@@ -75,7 +75,7 @@
   },
   "_id": "T76TBkbOvjmKAdWM",
   "img": "icons/commodities/gems/gem-faceted-navette-red.webp",
-  "sort": 200000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "5gbwR8UumxmHZULO": 3
@@ -85,7 +85,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
     "systemVersion": "7.6.4"
   },
