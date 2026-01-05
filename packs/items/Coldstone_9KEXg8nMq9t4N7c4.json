@@ -74,8 +74,8 @@
   },
   "_id": "9KEXg8nMq9t4N7c4",
   "img": "icons/commodities/gems/gem-rough-oval-teal.webp",
-  "folder": "FcGK53dYzJdvNjVO",
-  "sort": 400000,
+  "folder": "3dMkSqEhFF8JyjKP",
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "5gbwR8UumxmHZULO": 3
@@ -85,7 +85,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
     "systemVersion": "7.6.4"
   },
