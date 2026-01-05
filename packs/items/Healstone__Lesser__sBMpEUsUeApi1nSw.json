@@ -88,7 +88,7 @@
     "spell": null
   },
   "img": "icons/commodities/gems/gem-faceted-oval-blue.webp",
-  "folder": "FcGK53dYzJdvNjVO",
+  "folder": "3dMkSqEhFF8JyjKP",
   "ownership": {
     "default": 0,
     "5gbwR8UumxmHZULO": 3
@@ -107,6 +107,6 @@
     "systemVersion": "7.6.4"
   },
   "_id": "sBMpEUsUeApi1nSw",
-  "sort": 0,
+  "sort": 200000,
   "_key": "!items!sBMpEUsUeApi1nSw"
 }

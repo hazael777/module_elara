@@ -1,5 +1,5 @@
 {
-  "folder": "FcGK53dYzJdvNjVO",
+  "folder": "3dMkSqEhFF8JyjKP",
   "name": "Sendingstone",
   "type": "equipment",
   "effects": [],
@@ -76,7 +76,7 @@
   },
   "_id": "7mzi4AcpaDltgqzM",
   "img": "icons/commodities/gems/gem-faceted-radiant-red.webp",
-  "sort": 0,
+  "sort": 150000,
   "ownership": {
     "default": 0,
     "5gbwR8UumxmHZULO": 3
