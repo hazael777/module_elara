@@ -11,7 +11,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.7.0"
   },
@@ -20,6 +20,6 @@
     "qp7L9geXBa6D8uvq": 3
   },
   "_id": "Ngp5stzsjvsUrYlH",
-  "sort": 400000,
+  "sort": 700000,
   "_key": "!macros!Ngp5stzsjvsUrYlH"
 }

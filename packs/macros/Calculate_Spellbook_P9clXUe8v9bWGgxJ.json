@@ -1,0 +1,25 @@
+{
+  "name": "Calculate Spellbook",
+  "type": "script",
+  "author": "5gbwR8UumxmHZULO",
+  "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+  "scope": "global",
+  "command": "(async () => {\n  // Spell Cost by Rank\n  const SPELLBOOK_COST_BY_RANK = {\n    0: 2, // cantrips\n    1: 2,\n    2: 6,\n    3: 16,\n    4: 36,\n    5: 70,\n    6: 140,\n    7: 300,\n    8: 650,\n    9: 1500,\n    10: 7000,\n  };\n\n  // 1. Ensure exactly one token is selected\n  if (canvas.tokens.controlled.length !== 1) {\n    ui.notifications.error(\"You must select exactly one token first.\");\n    return;\n  }\n\n  const actor = canvas.tokens.controlled[0].actor;\n  if (!actor) {\n    ui.notifications.error(\"Selected token has no actor.\");\n    return;\n  }\n\n  // 2. Find Spellbook Item\n  let spellbook = actor.items.find((i) =>\n    i.name.toLowerCase().startsWith(\"spellbook\")\n  );\n\n  // 3. Create Spellbook if missing\n  if (!spellbook) {\n    const created = await actor.createEmbeddedDocuments(\"Item\", [\n      {\n        name: \"Spellbook\",\n        type: \"equipment\",\n        img: \"icons/sundries/books/book-symbol-spiral-silver-blue.webp\",\n        system: {\n          price: { value: { gp: 0 } },\n          description: { value: \"<p><strong>Spellbook</strong></p>\" },\n        },\n      },\n    ]);\n    spellbook = created[0];\n  }\n\n  // 4. Create entries for Dialog\n  const entries = actor.spellcasting.collections.contents;\n  \n  // 5. Create Dialog that will help you choose which traditions will be used to calculate the cost.\n  const dialogContent = `\n  <form>\n    <p>Select spellcasting entries to include:</p>\n    ${entries.map((entry, index) => {\n      const category = entry.entry.system?.prepared.value ?? \"unknown\";\n  \n      return `\n        <div class=\"form-group\">\n          <label>\n            <input type=\"checkbox\" name=\"entry\" value=\"${index}\"\n              ${category === \"prepared\" || category === \"spontaneous\" ? \"checked\" : \"\"}>\n            <strong>${entry.name}</strong>\n            <em>(${category})</em>\n          </label>\n        </div>\n      `;\n    }).join(\"\")}\n  </form>\n  `;\n\n  // 4. Calculate Spellbook Cost\n  new Dialog({\n    title: \"Spellbook Cost Calculation\",\n    content: dialogContent,\n    buttons: {\n      calculate: {\n        label: \"Calculate\",\n        callback: async (html) => {\n          let totalCost = 0;\n\n          const selectedIndexes = html\n            .find('input[name=\"entry\"]:checked')\n            .map((_, el) => Number(el.value))\n            .get();\n\n          for (const index of selectedIndexes) {\n            const entry = entries[index];\n\n            for (const spell of entry.contents) {\n              const rank = spell.system.level?.value ?? 0;\n              const cost = SPELLBOOK_COST_BY_RANK[rank] ?? 0;\n\n              totalCost += cost;\n            }\n          }\n\n          // Update spellbook price\n          await spellbook.update({\n            \"system.price.value.gp\": totalCost,\n          });\n\n          ChatMessage.create({\n            content: `<strong>Spellbook price updated:</strong> ${totalCost} gp for ${actor.name}`,\n            whisper: [],\n          });\n        },\n      },\n      cancel: { label: \"Cancel\" },\n    },\n    default: \"calculate\",\n  }).render(true);\n})();",
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4"
+  },
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "_id": "P9clXUe8v9bWGgxJ",
+  "sort": 300000,
+  "_key": "!macros!P9clXUe8v9bWGgxJ"
+}

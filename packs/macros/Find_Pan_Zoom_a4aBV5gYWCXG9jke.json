@@ -15,11 +15,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.7.0"
   },
   "_id": "a4aBV5gYWCXG9jke",
-  "sort": 500000,
+  "sort": 800000,
   "_key": "!macros!a4aBV5gYWCXG9jke"
 }
