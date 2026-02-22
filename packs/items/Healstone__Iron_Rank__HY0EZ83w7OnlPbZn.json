@@ -1,0 +1,112 @@
+{
+  "name": "Healstone (Iron Rank)",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A light blue magistone made of magicite attuned to magic specialized in accelerating the body's natural healing abilities.</p><h2>Heal <span class=\"action-glyph\">1</span></h2><p><strong>Activate </strong>Interact, Manipulate</p><p><strong>Frequency </strong>Once per day, plus overcharge</p><p><strong>Target</strong> 1 creature</p><p><strong>Range</strong> Touch</p><p><strong>Effect </strong>The stone's color intensifies with light and heals its target by @Damage[2d8+16[vitality]], after which the stone goes dim until your next daily preparations.</p><h2>Regenerate <span class=\"action-glyph\">3+</span></h2><section class=\"traits\"><p>Magical, Healing, Necromancy, Manipulate</p></section><p><strong>Activate </strong>Interact</p><p><strong>Frequency</strong> Once per hour</p><p><strong>Range </strong>Touch</p><p><strong>Target</strong> 1 creature</p><p><strong>Duration</strong> 10 minutes</p><p><strong>Requirements</strong> The target is Iron Rank (D) or lower (level -1 to 4).</p><p><strong>Effect </strong></p><hr /><p>The Healstone glows with intensifying light as it channels restorative magic.</p><p data-start=\"1875\" data-end=\"2072\">The target must hold or remain in contact with the Healstone for the duration. While doing so, the target must spend 3 actions each round to Sustain the healing (this has the Manipulate trait).</p><p data-start=\"2074\" data-end=\"2231\">If the target stops sustaining the effect, loses contact with the stone, or becomes unconscious, the effect immediately ends and the stone’s cooldown begins.</p><p data-start=\"2233\" data-end=\"2381\">For every minute under this effect, the target will recover 10% of its maximum hp.</p><p data-start=\"2383\" data-end=\"2407\">This is magical healing.</p><p></p><p><strong>Rank Disparity </strong></p><hr /><p>If the target’s rank exceeds the Healstone’s rank, reduce the total healing by half for each rank of difference.</p><p data-start=\"2547\" data-end=\"2639\">Example:<br data-start=\"2555\" data-end=\"2558\" />A Silver Ranker (2 ranks higher) target would recover only 1/4 of their maximum HP rounded down, or 2.5% of their maximum HP every minute.</p><p></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.948,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "healing",
+        "magical",
+        "manipulate",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 16
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": false
+    },
+    "damage": {
+      "formula": "2d8+14",
+      "type": "vitality",
+      "kind": "healing"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "spell": {},
+    "stackGroup": null
+  },
+  "img": "icons/commodities/gems/gem-faceted-oval-blue.webp",
+  "folder": "3dMkSqEhFF8JyjKP",
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {
+    "elara": {
+      "rechargeOnRest": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "HY0EZ83w7OnlPbZn",
+  "sort": 500000,
+  "_key": "!items!HY0EZ83w7OnlPbZn"
+}

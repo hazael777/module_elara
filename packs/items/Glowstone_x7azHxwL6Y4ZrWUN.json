@@ -22,7 +22,7 @@
       {
         "key": "TokenLight",
         "value": {
-          "dim": 20,
+          "dim": 40,
           "bright": 10,
           "color": "#ffffff",
           "animation": {
@@ -113,7 +113,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.6.4"
+    "systemVersion": "7.10.1"
   },
   "_key": "!items!x7azHxwL6Y4ZrWUN"
 }

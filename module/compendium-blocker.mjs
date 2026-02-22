@@ -11,7 +11,9 @@ const BLOCKED_ITEMS = {
   "Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ": "Interplanar Teleport",
   "Compendium.pf2e.spells-srd.Item.U13bC0tNgrlHoeTK": "Gate",
   "Compendium.pf2e.spells-srd.Item.5ZW1w9f4gWlSIuWA": "Teleportation Circle",
-  "Compendium.pf2e.spells-srd.Item.oKC36WjFD1jgqUN5": "Forest of Gates"
+  "Compendium.pf2e.spells-srd.Item.oKC36WjFD1jgqUN5": "Forest of Gates",
+  "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt": "Battle Medicine",
+  "Compendium.pf2e.feats-srd.Item.xOMwuKCf02aFzyp3" : "Paragon Battle Medicine"
 };
 
 // Cache of blocked item names for faster filtering
