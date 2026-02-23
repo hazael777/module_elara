@@ -14,7 +14,7 @@
     },
     "description": {
       "gm": "",
-      "value": "<p>Your aura perception sharpens as you attune to the subtle vibrations of the unseen. By extending your aura outward, you draw insights into the true essence of those around you.</p><hr /><p><strong data-start=\"352\" data-end=\"362\">Effect</strong>: After detecting creatures with your @UUID[Item.qtNe3Zd56jdngpWi]{Aura Sense}, you may analyze them using the same saving throw results they rolled against your ability.</p><ul data-start=\"536\" data-end=\"773\"><li data-start=\"536\" data-end=\"644\"><p data-start=\"538\" data-end=\"644\"><strong data-start=\"538\" data-end=\"549\">Failure</strong>: You learn the creature’s rank and gain a general impression of its emotional state.</p></li><li data-start=\"645\" data-end=\"773\"><p data-start=\"647\" data-end=\"773\"><strong data-start=\"647\" data-end=\"667\">Critical Failure</strong>: You learn the creature’s exact level and gain a detailed understanding of its emotional state.</p></li></ul><hr /><p data-start=\"775\" data-end=\"867\"><strong data-start=\"775\" data-end=\"790\">Aura Attack</strong>: actions with this trait are subject to a multiple aura-attack penatly accumulated during a turn.</p>"
+      "value": "<p>Your aura perception sharpens as you attune to the subtle vibrations of the unseen. By extending your aura outward, you draw insights into the true essence of those around you.</p><hr /><p><strong data-start=\"352\" data-end=\"362\">Effect</strong>: After detecting creatures with your @UUID[Compendium.elara.feats.Item.uCKhxozTbfGH3kBt]{Aura Sense}, you may analyze them using the same saving throw results they rolled against your ability.</p><ul data-start=\"536\" data-end=\"773\"><li data-start=\"536\" data-end=\"644\"><p data-start=\"538\" data-end=\"644\"><strong data-start=\"538\" data-end=\"549\">Failure</strong>: You learn the creature’s rank and gain a general impression of its emotional state.</p></li><li data-start=\"645\" data-end=\"773\"><p data-start=\"647\" data-end=\"773\"><strong data-start=\"647\" data-end=\"667\">Critical Failure</strong>: You learn the creature’s exact level and gain a detailed understanding of its emotional state.</p></li></ul><hr /><p data-start=\"775\" data-end=\"867\"><strong data-start=\"775\" data-end=\"790\">Aura Attack</strong>: actions with this trait are subject to a multiple aura-attack penatly accumulated during a turn.</p>"
     },
     "publication": {
       "title": "",
@@ -64,9 +64,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2"
+    "systemVersion": "7.10.1"
   },
   "_id": "SFCgwb5v6thKSb5z",
   "ownership": {

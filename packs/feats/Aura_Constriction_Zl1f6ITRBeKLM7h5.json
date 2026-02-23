@@ -9,7 +9,7 @@
       "previous": null
     },
     "description": {
-      "value": "<p><em data-start=\"759\" data-end=\"860\">Your aura doesn’t just suppress — it crashes down on your opponent’s spirit with suffocating force.</em></p><hr /><p data-start=\"864\" data-end=\"1047\">When you use @UUID[Item.vxTZxI7Z5BcHFFmb]{Aura Suppression}, you may spend one additional action to intensify the assault.</p><p>Using the same results from the Aura Suppression roll:</p><ul data-start=\"1049\" data-end=\"1315\"><li data-start=\"1049\" data-end=\"1177\"><p data-start=\"1051\" data-end=\"1177\"><strong data-start=\"1051\" data-end=\"1062\">Failure</strong>: In addition to the normal effects, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p></li><li data-start=\"1178\" data-end=\"1315\"><p data-start=\"1180\" data-end=\"1315\"><strong data-start=\"1180\" data-end=\"1200\">Critical Failure</strong>: In addition to the normal effects, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p></li></ul><hr /><p><strong data-start=\"497\" data-end=\"510\">Legendary</strong>: This action becomes a free action instead.</p>",
+      "value": "<p><em data-start=\"759\" data-end=\"860\">Your aura doesn’t just suppress — it crashes down on your opponent’s spirit with suffocating force.</em></p><hr /><p data-start=\"864\" data-end=\"1047\">When you use @UUID[Compendium.elara.feats.Item.jHi3UiizWaQcW27M]{Aura Suppression}, you may spend one additional action to intensify the assault.</p><p>Using the same results from the Aura Suppression roll:</p><ul data-start=\"1049\" data-end=\"1315\"><li data-start=\"1049\" data-end=\"1177\"><p data-start=\"1051\" data-end=\"1177\"><strong data-start=\"1051\" data-end=\"1062\">Failure</strong>: In addition to the normal effects, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p></li><li data-start=\"1178\" data-end=\"1315\"><p data-start=\"1180\" data-end=\"1315\"><strong data-start=\"1180\" data-end=\"1200\">Critical Failure</strong>: In addition to the normal effects, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p></li></ul><hr /><p><strong data-start=\"497\" data-end=\"510\">Legendary</strong>: This action becomes a free action instead.</p>",
       "gm": ""
     },
     "publication": {
@@ -81,9 +81,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2"
+    "systemVersion": "7.10.1"
   },
   "_id": "Zl1f6ITRBeKLM7h5",
   "ownership": {
