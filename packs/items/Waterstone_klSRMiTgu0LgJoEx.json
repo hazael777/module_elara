@@ -1,0 +1,107 @@
+{
+  "name": "Waterstone",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A dark blue magistone made of magicite attuned to the water element.</p><h2>Create Water<span class=\"action-glyph\">2</span></h2><section class=\"traits\"><p>Magical, Concentrate, Manipulate, Water</p></section><p><strong>Activate </strong>Interact, Manipulate</p><p><strong>Frequency </strong>3 times per day, plus overcharge</p><p><strong>Range</strong> 0 feet</p><p><strong>Effect </strong>The stone's color intensifies with light and during the next 12 seconds it will create 1 liter of water. </p><h2></h2>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.948,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": false
+    },
+    "damage": {
+      "formula": "10d8+80",
+      "type": "vitality",
+      "kind": "healing"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "spell": null
+  },
+  "img": "icons/commodities/gems/gem-faceted-asscher-blue.webp",
+  "folder": "3dMkSqEhFF8JyjKP",
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.10.1"
+  },
+  "_id": "klSRMiTgu0LgJoEx",
+  "sort": 0,
+  "_key": "!items!klSRMiTgu0LgJoEx"
+}
