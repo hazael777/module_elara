@@ -19,6 +19,9 @@ Thumbs.db
 # FoundryVTT CLI cache
 /.foundryvtt/
 
+# Local Foundry data folder selected by link.mjs
+/.foundry-data-path
+
 # VS Code settings
 .vscode/
 

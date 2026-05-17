@@ -47,6 +47,7 @@ try {
         fs.unlinkSync(symlinkPath);
     }
     fs.symlinkSync(path.resolve(process.cwd(), "build"), symlinkPath);
+    fs.writeFileSync(path.resolve(process.cwd(), ".foundry-data-path"), `${dataPath}\n`);
 } catch (error) {
     if (error instanceof Error) {
         console.error(`An error was encountered trying to create a symlink: ${error.message}`);
