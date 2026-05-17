@@ -11,7 +11,7 @@
     "author": "Hazael",
     "license": "MIT",
     "devDependencies": {
-        "@foundryvtt/foundryvtt-cli": "^1.0.3",
+        "@foundryvtt/foundryvtt-cli": "^3.0.3",
         "@types/node": "^22.5.3",
         "@types/prompts": "^2.4.9",
         "prompts": "^2.4.2"
