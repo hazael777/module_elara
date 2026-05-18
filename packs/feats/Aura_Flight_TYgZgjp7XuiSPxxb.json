@@ -22,11 +22,13 @@
     "slug": null,
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "anchoring"
+      ],
       "rarity": "rare"
     },
     "level": {
-      "value": 12
+      "value": 10
     },
     "category": "skill",
     "onlyLevel1": false,
@@ -60,9 +62,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2"
+    "systemVersion": "8.1.2"
   },
   "_id": "TYgZgjp7XuiSPxxb",
   "ownership": {

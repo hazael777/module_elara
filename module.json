@@ -8,7 +8,7 @@
   "url": "https://github.com/hazael777/module_elara/",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "14"
   },
   "relationships": {
     "systems": [

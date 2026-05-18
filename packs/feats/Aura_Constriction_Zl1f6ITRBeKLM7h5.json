@@ -43,11 +43,13 @@
     "slug": "aura-constriction",
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "anchoring"
+      ],
       "rarity": "common"
     },
     "level": {
-      "value": 15
+      "value": 12
     },
     "category": "skill",
     "onlyLevel1": false,
@@ -81,9 +83,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "systemVersion": "8.1.2"
   },
   "_id": "Zl1f6ITRBeKLM7h5",
   "ownership": {

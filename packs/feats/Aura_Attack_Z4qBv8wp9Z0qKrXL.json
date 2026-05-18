@@ -23,12 +23,13 @@
     "traits": {
       "otherTags": [],
       "value": [
+        "anchoring",
         "skill"
       ],
       "rarity": "rare"
     },
     "level": {
-      "value": 7
+      "value": 6
     },
     "category": "skill",
     "onlyLevel1": false,
@@ -62,9 +63,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
-    "systemVersion": "7.10.1"
+    "systemVersion": "8.1.2"
   },
   "_id": "Z4qBv8wp9Z0qKrXL",
   "ownership": {

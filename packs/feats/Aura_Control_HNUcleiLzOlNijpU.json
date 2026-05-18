@@ -26,7 +26,9 @@
     "slug": null,
     "traits": {
       "otherTags": [],
-      "value": [],
+      "value": [
+        "anchoring"
+      ],
       "rarity": "rare"
     },
     "level": {
@@ -61,9 +63,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "14.361",
     "systemId": "pf2e",
-    "systemVersion": "7.5.2"
+    "systemVersion": "8.1.2"
   },
   "_id": "HNUcleiLzOlNijpU",
   "ownership": {
