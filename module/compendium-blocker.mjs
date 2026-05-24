@@ -13,17 +13,46 @@ const BLOCKED_ITEMS = {
   "Compendium.pf2e.spells-srd.Item.5ZW1w9f4gWlSIuWA": "Teleportation Circle",
   "Compendium.pf2e.spells-srd.Item.oKC36WjFD1jgqUN5": "Forest of Gates",
   "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt": "Battle Medicine",
-  "Compendium.pf2e.feats-srd.Item.xOMwuKCf02aFzyp3" : "Paragon Battle Medicine"
+  "Compendium.pf2e.feats-srd.Item.xOMwuKCf02aFzyp3": "Paragon Battle Medicine"
 };
+
+// Entire packs to unregister from Foundry at startup.
+const BLOCKED_PACKS = new Set([
+  "pf2e.deities"
+]);
 
 // Cache of blocked item names for faster filtering
 const BLOCKED_ITEM_NAMES = new Set(Object.values(BLOCKED_ITEMS));
 
 /**
- * Initialize compendium item blocking
+ * Unregister blocked packs from game.packs.
+ * Exported so elara.mjs can register it on the "setup" hook directly,
+ * ensuring it runs as early as possible before the UI is built.
+ */
+export function unregisterBlockedPacks() {
+  for (const packId of BLOCKED_PACKS) {
+    if (game.packs?.get(packId)) {
+      game.packs.delete(packId);
+      console.log(`Elara | Unregistered compendium pack: ${packId}`);
+    }
+  }
+}
+
+/**
+ * Initialize compendium UI blocking hooks
  */
 export async function initializeCompendiumBlocker() {
   const blockedUUIDs = Object.keys(BLOCKED_ITEMS);
+
+  // Fallback: hide blocked packs from the sidebar in case of re-renders
+  Hooks.on("renderCompendiumDirectory", (app, html) => {
+    const $html = html instanceof jQuery ? html : $(html);
+    $html.find(".compendium-pack[data-pack]").each(function() {
+      if (BLOCKED_PACKS.has(this.dataset.pack)) {
+        this.style.display = "none";
+      }
+    });
+  });
 
   // Hook to filter compendium content (regular compendium view)
   Hooks.on("renderCompendium", async (app, html, data) => {
@@ -43,10 +72,8 @@ export async function initializeCompendiumBlocker() {
   Hooks.on("renderCompendiumBrowser", (app, html) => {
     const $html = html instanceof jQuery ? html : $(html);
     
-    // Initial filter
     filterBrowserResults($html);
     
-    // Use MutationObserver to catch dynamically loaded search results
     const targetElement = $html[0] || html;
     const observer = new MutationObserver(() => {
       filterBrowserResults($html);
@@ -61,17 +88,18 @@ export async function initializeCompendiumBlocker() {
     
     return indexData.filter(entry => {
       const uuid = entry.uuid || `Compendium.${entry.pack}.Item.${entry._id}`;
-      return !blockedUUIDs.includes(uuid);
+      const pack = entry.pack || uuid.split(".")[1];
+      return !blockedUUIDs.includes(uuid) && !BLOCKED_PACKS.has(pack);
     });
   });
 
-  // Hook into ready to watch for global search results
+  // Watch for global search results
   Hooks.once("ready", () => {
-    // Watch the entire document body for search results
     const bodyObserver = new MutationObserver(() => {
       document.querySelectorAll('li.match[data-uuid]').forEach(item => {
         const uuid = item.dataset.uuid;
-        if (blockedUUIDs.includes(uuid)) {
+        const pack = uuid.split(".").slice(0, 2).join(".");
+        if (blockedUUIDs.includes(uuid) || BLOCKED_PACKS.has(pack)) {
           item.style.display = "none";
         }
       });
@@ -85,7 +113,6 @@ export async function initializeCompendiumBlocker() {
  * Filter browser results to hide blocked items
  */
 function filterBrowserResults(html) {
-  // Filter by button text (item name)
   html.find("li button.result-link").each(function() {
     const itemName = this.textContent.trim();
     if (BLOCKED_ITEM_NAMES.has(itemName)) {
