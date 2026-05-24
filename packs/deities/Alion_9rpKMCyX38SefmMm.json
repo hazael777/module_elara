@@ -1,0 +1,81 @@
+{
+  "name": "Alion",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>It is said that Alion was not born but <em>erupted</em> — a spark flung from the Life Stream by accident, a mistake of potential. In the silent void, he drifted alone, a god without purpose, a spark without a flame.</p><p>Craving companionship, he reached back toward the Life Stream and shaped it with will and wonder, <strong>forging the first gods</strong> from its untamed currents. These gods became his children, and though they surpassed him in shaping the world, he cherished them nonetheless.</p><p>When the younger gods created Elara, Alion watched in quiet reverence. He seldom intervened, preferring to be the <strong>foundation beneath their freedom</strong>, only stepping in when justice or balance risked collapse.</p><p>It is believed that <strong>all dragons are his descendants</strong>, their very breath an echo of his eternal flame. He weeps when dragons turn to tyranny, for he gave them form not for dominion, but for wisdom.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "air",
+        "creation",
+        "wyrmkin",
+        "healing",
+        "might",
+        "protection"
+      ],
+      "alternate": [
+        "confidence",
+        "duty",
+        "zeal"
+      ]
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "cha",
+      "wis"
+    ],
+    "skill": [
+      "diplomacy"
+    ],
+    "weapons": [
+      "jaws",
+      "staff"
+    ],
+    "spells": {}
+  },
+  "_id": "9rpKMCyX38SefmMm",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!9rpKMCyX38SefmMm"
+}

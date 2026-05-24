@@ -1,0 +1,83 @@
+{
+  "name": "Kyralis",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>It is said Kyralis was not <em>born</em> like the other gods, but <strong>emerged</strong> from the first ripple of death in the Life Stream — the moment the first living thing died. She made no sound then, and has spoken little since.</p><p>She holds dominion over the passing of all souls, guiding them back into the stream when their time comes, and ensuring the cycle of rebirth remains unbroken.</p><p>Legends say she can see <strong>all futures</strong>, but only ever speaks the ones that must come to pass.</p><p>She does not hate. She does not love. But she will never forgive the creation of the undead—a crime she sees as <em>warping the stream itself.</em></p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cold",
+        "death",
+        "fate",
+        "healing",
+        "pain",
+        "soul"
+      ],
+      "alternate": [
+        "darkness",
+        "vigil",
+        "void",
+        "sorrow"
+      ]
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "wis"
+    ],
+    "skill": [
+      "medicine"
+    ],
+    "weapons": [
+      "scythe",
+      "dagger"
+    ],
+    "spells": {}
+  },
+  "_id": "7xO8JK29zNbs0ab7",
+  "img": "icons/magic/death/weapon-scythe-rune-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7xO8JK29zNbs0ab7"
+}

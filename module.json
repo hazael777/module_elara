@@ -60,9 +60,22 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "deities",
+      "label": "Elara.Deities",
+      "path": "packs/deities",
+      "type": "Item",
+      "banner": "ui/banners/item-banner.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
-     "packFolders": [
+  "packFolders": [
     {
       "name": "Elara",
       "sorting": "a",
@@ -73,7 +86,8 @@
       "packs": [
         "feats",
         "macros",
-        "items"
+        "items",
+        "deities"
       ]
     }
   ],

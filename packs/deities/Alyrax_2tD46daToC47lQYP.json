@@ -1,0 +1,79 @@
+{
+  "name": "Alyrax",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Where creation ends, Alyrax begins.</p><p>He is called many things — the Unmaker, the Endless Destruction, He Who Tears Down — but his followers simply call him <em>the Answer</em>. To them, destruction is not an end but a correction. A mercy. All things that are built will fall. Alyrax simply refuses to pretend otherwise.</p><p>His domain is not chaos, and that is what makes him dangerous. Alyrax does not destroy blindly — he <em>chooses</em>. Cities. Legacies. People. He picks apart the things others hold most dear with a deliberateness that feels almost personal, as if each act of ruin is a message meant for someone who never reads it.</p><p>His edicts are simple: tear down what stands. Finish what you start. Show no mercy once the decision to destroy has been made.</p><p>Sages debate whether Alyrax is truly evil or simply ancient in a way that has curdled into something terrible. His followers claim he is the only honest god — the one who acknowledges that nothing lasts. His enemies say there is a grief in his destruction that he has never learned to name.</p><p>Both may be right. Neither makes him less dangerous.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "air",
+        "death",
+        "destruction",
+        "wyrmkin",
+        "dust",
+        "void"
+      ],
+      "alternate": [
+        "confidence"
+      ]
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "str",
+      "con"
+    ],
+    "skill": [
+      "athletics"
+    ],
+    "weapons": [
+      "jaws",
+      "whip"
+    ],
+    "spells": {}
+  },
+  "_id": "2tD46daToC47lQYP",
+  "img": "icons/creatures/reptiles/lizard-mouth-glowing-red.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!2tD46daToC47lQYP"
+}
