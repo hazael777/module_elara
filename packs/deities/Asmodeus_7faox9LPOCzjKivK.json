@@ -1,0 +1,76 @@
+{
+  "name": "Asmodeus",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Asmodeus is said to have been among the earliest divine intelligences to shape matter into ordered form. Where other gods explored creation through curiosity, variation, and impermanence, Asmodeus pursued <strong>perfection as a fixed state</strong>.</p><p>He believed creation was not meant to be diverse, but <em>correct</em>. In his doctrine, there was an ideal form of life—an apex design that all things should aspire to become or be replaced by.</p><p>His greatest work was the attempt to forge a race in his own image: not merely powerful, but <em>refined</em>, structured, and absolute in purpose. However, as his vision hardened, so too did his judgment. All other divine creations became, in his eyes, flawed drafts of reality—unfinished and therefore disposable.</p><p>This belief seeped into his devils, who came to interpret “perfection” as entitlement. If they were the most refined creation, then dominion over lesser forms was not conquest, but correction.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "must",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "delirium",
+        "fire",
+        "sun",
+        "tyranny",
+        "trickery",
+        "vigil"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "cha",
+      "int"
+    ],
+    "skill": [
+      "deception"
+    ],
+    "weapons": [
+      "mace"
+    ],
+    "spells": {}
+  },
+  "_id": "7faox9LPOCzjKivK",
+  "img": "icons/magic/symbols/star-yellow.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!7faox9LPOCzjKivK"
+}

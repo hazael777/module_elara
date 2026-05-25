@@ -1,0 +1,76 @@
+{
+  "name": "Myrralune",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Myrralune is spoken of in the oldest druidic fragments as <strong>the first pattern of growth given will</strong>.</p><p>When the Life Stream first surged through Elara, it did not yet know how to <em>remain</em>. Creation was abundant, unstable, and without direction—life that bloomed and collapsed in the same breath, forests that existed only as possibility, creatures that forgot their own shape before they could inherit it.</p><p>It was Myrralune who gave growth its memory.</p><p>She did not “create” life in the way mortal gods understand creation. Instead, she <strong>listened to the Life Stream’s excess</strong>—its endless pressure to become—and gave it structure. Where there was raw possibility, she introduced rhythm. Where there was hunger to exist, she introduced cycle.</p><p>The first forests are said to have grown from her footsteps not because she planted them, but because she <strong>taught the world how to repeat itself without breaking</strong>.</p><p>From this act, all living systems in Elara gained coherence:</p><ul><li><p>flora learned seasons instead of endless bloom</p></li><li><p>fauna learned reproduction instead of singular existence</p></li><li><p>decay became not failure, but return</p></li></ul>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "earth",
+        "moon",
+        "nature",
+        "wood",
+        "star"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "wis"
+    ],
+    "skill": [
+      "nature",
+      "survival"
+    ],
+    "weapons": [
+      "sickle"
+    ],
+    "spells": {}
+  },
+  "_id": "8D6I1YtWn2PGC8MB",
+  "img": "icons/magic/nature/elemental-plant-humanoid.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!8D6I1YtWn2PGC8MB"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Veloras",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Veloras was said to have been born (extracted from the Life Stream) when the <strong>Primordial Arcanum</strong> realized that they needed a keeper of truths. </p><p>It is Veloras who records everything in the Codex Eternal. </p><p>It was by his power that memories of the gods were erased from Elarans during <strong>The Sundering</strong></p><p>It is also said that Veloras knows every lie ever spoken and keeps them preserved in glass jars, whispering them back to their liars on deathbeds.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "glyph",
+        "introspection",
+        "magic",
+        "knowledge",
+        "secrecy",
+        "truth"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int"
+    ],
+    "skill": [
+      "arcana",
+      "occultism"
+    ],
+    "weapons": [],
+    "spells": {}
+  },
+  "_id": "c4F5oIHfOLq4xKr3",
+  "img": "icons/sundries/books/book-clasp-spiral-green.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!c4F5oIHfOLq4xKr3"
+}

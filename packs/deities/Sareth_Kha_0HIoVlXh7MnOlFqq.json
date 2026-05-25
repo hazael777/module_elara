@@ -1,0 +1,78 @@
+{
+  "name": "Sareth-Kha",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Sareth-Kha is said to have been born in the places where direction loses meaning—threshold deserts, moonlit forests, and the space between remembered and forgotten roads.</p><p>She is not a goddess of deception in the traditional sense. She does not lie about destinations.</p><p>She simply ensures that <strong>certainty dissolves before arrival</strong>.</p><p>Beastkin myths say she was once one of their own who walked too far under the moonlight and returned with no stable sense of where “home” was. Others say she was never mortal at all, but a fragment of lunar shadow given shape and curiosity by the Beastkin’s closeness to wild transformation.</p><p>What is consistent across all stories is her gift—and curse:</p><p>Where Sareth-Kha walks, paths subtly rearrange themselves. Landmarks shift just enough to become unreliable. Memory becomes suspect. Even instinct begins to argue with itself.</p><p>Lycanthropes revere her differently. To them, she is not merely a guide into wilderness, but the embodiment of <strong>becoming lost within oneself</strong>—the moment identity no longer holds a fixed direction, especially under the moon’s influence.</p><p>Some say those who follow her willingly never return home because they stop recognizing the concept of “home” as fixed.</p><p>Others say she is the reason no map of certain ancient regions will ever agree twice.</p><p>She is not cruel in the way destructive gods are cruel.</p><p>She simply removes the assumption that the world is meant to be found.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy",
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "darkness",
+        "healing",
+        "moon",
+        "water",
+        "delirium"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "cha",
+      "wis"
+    ],
+    "skill": [
+      "deception",
+      "survival"
+    ],
+    "weapons": [
+      "glaive"
+    ],
+    "spells": {}
+  },
+  "_id": "0HIoVlXh7MnOlFqq",
+  "img": "icons/magic/nature/symbol-moon-stars-white.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0HIoVlXh7MnOlFqq"
+}

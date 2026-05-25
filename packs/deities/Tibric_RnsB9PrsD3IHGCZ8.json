@@ -1,0 +1,74 @@
+{
+  "name": "Tibric",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>It is said Tibric was the first to strike a deal not with gold, but with <em>trust</em>. When the gods bickered over resources to shape Elara, Tibric created a system of trade: you give, you receive, and both grow.</p><p>His greatest deal was convincing rival gods to cooperate on the <strong>Grand Exchange</strong>, a celestial agreement that enabled divine creations to thrive side by side without war.</p><p>Some stories say it was Tibric who taught mortals the first words of barter—and the first lesson in listening. Others say he still walks the markets of Elara in disguise, testing the fairness of trades.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cities",
+        "ambition",
+        "metal",
+        "wealth"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "cha",
+      "int"
+    ],
+    "skill": [
+      "diplomacy",
+      "society"
+    ],
+    "weapons": [],
+    "spells": {}
+  },
+  "_id": "RnsB9PrsD3IHGCZ8",
+  "img": "icons/tools/scribal/ink-quill-pink.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!RnsB9PrsD3IHGCZ8"
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Krug",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Krug is said to have risen from the blood-soaked earth where the first goblins were born, claiming dominion over the weak and teaching goblins to fight, raid, and grow stronger through conquest.</p><p>Legends tell that Krug once challenged the gods of other races directly, and though she did not defeat them, she gained the secret of rapid goblin reproduction and the cunning of war.</p><p>She is a god of survival, for her kin has always been discriminated against. In turn she taught her kin to seize, reproduce, expand, and crush opposition to thrive.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "ambition",
+        "plague",
+        "tyranny",
+        "might"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm"
+    ],
+    "attribute": [
+      "dex",
+      "str"
+    ],
+    "skill": [
+      "thievery",
+      "athletics"
+    ],
+    "weapons": [
+      "dogslicer"
+    ],
+    "spells": {}
+  },
+  "_id": "oCOKFOWJwPue0ekz",
+  "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!oCOKFOWJwPue0ekz"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Elysmera",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Elysmera is said to have been born at the <strong>first dawn</strong> of the world, rising from the Life Stream as the sun kissed Elara’s skies for the first time. She was not formed from flame, but <strong>chose it</strong>—not to burn, but to <em>warm</em>, to <em>guide</em>, to <em>cleanse</em>. Her earliest act was to lift the cold from the land and ignite courage in the hearts of mortals.</p><p>It is said her <strong>tears formed the first phoenix</strong>, a symbol of rebirth and undying hope.</p><p>She is the <strong>eternal adversary of the corrupted</strong>, especially undead and aberrations, whom she sees as anathema to life and truth. Her flame is gentle for the repentant—but for the defiant and malicious, it <strong>burns with cleansing fury</strong>.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "fire",
+        "healing",
+        "passion",
+        "repose",
+        "protection",
+        "sun"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "wis"
+    ],
+    "skill": [
+      "medicine"
+    ],
+    "weapons": [
+      "longsword",
+      "bastard-sword"
+    ],
+    "spells": {}
+  },
+  "_id": "d6H9Wq3PyD21B0Ww",
+  "img": "icons/magic/holy/barrier-shield-winged-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!d6H9Wq3PyD21B0Ww"
+}

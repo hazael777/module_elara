@@ -1,0 +1,76 @@
+{
+  "name": "Nydraxis",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Nydraxis began as something outside the taxonomy of gods—an aberration born in a foreign plane where thought, matter, and memory were not distinct categories but interchangeable states of existence.</p><p>It was not worshipped. It was <em>avoided</em>.</p><p>Its nature was simple: to consume.</p><p>Not merely to destroy, but to <strong>incorporate</strong>. Every thing it devoured did not vanish—it was rewritten into its being. Stone, flesh, magic, time, identity: all became substrate for expansion.</p><p>Its existence changed irrevocably when it breached the Life Stream.</p><p>The Life Stream did not resist in a way mortal minds would expect. Instead, it was experienced as an overwhelming flood of structured existence—life, memory, divinity, possibility. Nydraxis did not merely consume it.</p><p>It drank.</p><p>And in doing so, it ascended.</p><p>What was once an aberration became something far more dangerous: a god whose divinity is built not on creation, but <strong>assimilation of creation itself</strong>.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "unholy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "abomination",
+        "death",
+        "undeath",
+        "indulgence",
+        "nightmares",
+        "star"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "harm",
+      "heal"
+    ],
+    "attribute": [
+      "int"
+    ],
+    "skill": [
+      "occultism"
+    ],
+    "weapons": [
+      "jaws"
+    ],
+    "spells": {}
+  },
+  "_id": "GRsC3wj1jl49IU3N",
+  "img": "icons/magic/unholy/barrier-fire-pink.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!GRsC3wj1jl49IU3N"
+}

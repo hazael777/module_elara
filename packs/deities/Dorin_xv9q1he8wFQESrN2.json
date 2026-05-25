@@ -1,0 +1,76 @@
+{
+  "name": "Dorin",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Dorin was the first dwarf to emerge from the <strong>Life Stream</strong>. As the world churned in its youth, Dorin carved order from chaos. With <strong>stone and will</strong>, he tunneled the first halls beneath the mountains and forged the bones of the world.</p><p>It is said Dorin <strong>taught fire to behave</strong>, <strong>earth to hold</strong>, and <strong>steel to remember shape</strong>. Where other gods brought chaos, beauty, or mercy, Dorin brought <strong>structure</strong>.</p><p>During the <strong>Age of Division</strong>, when many gods waged open war, Dorin kept his people hidden and protected. He forged the <strong>Great Wards</strong> that sealed deep cities from divine calamity, and he never broke faith with his kin—even when the stars fell and the mountains wept.</p><p>He is also credited with the invention of <strong>runecraft</strong> and the earliest forms of magical engineering. Some myths even claim Dorin created the <strong>Anvil of Eternity</strong>, where some gods go to forge relics of immense power.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "cities",
+        "creation",
+        "lightning",
+        "metal",
+        "toil",
+        "fire"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "int"
+    ],
+    "skill": [
+      "crafting"
+    ],
+    "weapons": [
+      "warhammer",
+      "hammer"
+    ],
+    "spells": {}
+  },
+  "_id": "xv9q1he8wFQESrN2",
+  "img": "icons/weapons/hammers/hammer-double-glowing-yellow.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!xv9q1he8wFQESrN2"
+}

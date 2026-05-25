@@ -1,0 +1,77 @@
+{
+  "name": "Rovari",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Rovari was said to be the first soul to willingly leave the sanctuary of the gods and walk among mortals <em>not to rule them</em>, but to learn from them. She saw each road as a thread in the great tapestry of Elara, and every experience — joy or sorrow — as sacred.</p><p>Some say she was the one who taught the first mortals how to unify tribes, how to ask questions, and how to forgive themselves when they failed.</p><p>During the <strong>Sundering</strong>, Rovari grieved—not out of hatred or fear—but because she knew the world would become impossible to explore for her. Still, she left a blessing in every crossroad, hoping her example would live on in those brave enough to walk forward without certainty.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "change",
+        "dreams",
+        "freedom",
+        "luck",
+        "travel",
+        "water"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "wis",
+      "cha"
+    ],
+    "skill": [
+      "survival",
+      "diplomacy"
+    ],
+    "weapons": [
+      "sling"
+    ],
+    "spells": {}
+  },
+  "_id": "YRMiNwuXkDoHBSPU",
+  "img": "icons/tools/navigation/compass-chain-blue.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!YRMiNwuXkDoHBSPU"
+}

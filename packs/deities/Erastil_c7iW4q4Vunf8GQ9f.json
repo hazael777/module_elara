@@ -1,0 +1,76 @@
+{
+  "name": "Erastil",
+  "type": "deity",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Unlike many other good deities, Erastil does not send his followers out into the world to fight and crush evil. </p><p>Erastil watches over those who devote their lives to family and community. He is primarily an agricultural deity, specifically focusing on those aspects of nature that either can be tamed or are of use to his followers. </p><p>His domain encompasses the plants and animals that farmers, hunters, and ranchers deal with in their everyday lives. </p><p>He wants that which came from the Life Stream to be used but not abused.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "category": "deity",
+    "sanctification": {
+      "modal": "can",
+      "what": [
+        "holy"
+      ]
+    },
+    "domains": {
+      "primary": [
+        "earth",
+        "family",
+        "nature",
+        "wealth"
+      ],
+      "alternate": []
+    },
+    "font": [
+      "heal"
+    ],
+    "attribute": [
+      "dex",
+      "wis"
+    ],
+    "skill": [
+      "acrobatics",
+      "nature"
+    ],
+    "weapons": [
+      "longbow",
+      "shortbow"
+    ],
+    "spells": {}
+  },
+  "_id": "c7iW4q4Vunf8GQ9f",
+  "img": "icons/weapons/bows/bow-simple-small.webp",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!c7iW4q4Vunf8GQ9f"
+}
