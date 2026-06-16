@@ -1,0 +1,99 @@
+{
+  "name": "Veilbind Draught",
+  "type": "consumable",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A potion of murky violet liquid that seems to shift in the light, as though obscured by gossamer veils. When diluted in alcohol or other beverages, it becomes entirely undetectable—colorless, odorless, and tasteless.</p><hr><p>When ingested, the Veilbind Draught forces a @Check[fortitude|dc:21|basic]</p><ul><li><p><strong>Failure</strong>: the creature goes up a stage.</p></li><li><p><strong>Critical Failure</strong>: the creature goes up 2 stages.</p></li><li><p><strong>Success</strong>: the creature goes down a stage.</p></li><li><p><strong>Critical Sucess</strong>: the creature goes down 2 stages.</p></li></ul><hr><p><strong>Maximum Duration</strong>: ~5 hours</p><hr><p><strong>Effect</strong>:</p><ul><li><p>Stage 1: clumsy 1, enfeebled 1, drained 1, stupefied 1 (10 minutes)</p></li><li><p>Stage 2: clumsy 2, enfeebled 2, drained 2, stupefied 2 (10 minutes)</p></li><li><p>Stage 3: clumsy 3, enfeebled 3, drained 3, stupefied 3 (10 minutes)</p></li><li><p>Stage 4: clumsy 4, enfeebled 4, drained 4, stupefied 4 (10 minutes)</p></li><li><p>Stage 5 unconscious with no Perception check to wake up (1 round)</p></li><li><p>Stage 6 unconscious with no Perception check to wake up (1d4 hours)</p></li></ul><hr><p><strong>Stages</strong>:</p><ul><li><p>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained}</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied}</p></li></ul><hr><div data-visibility=\"gm\"><p>The draught is prepared through a ritual binding of Duskbloom extract and spectral nightshade, creating a concoction that clouds the boundary between will and flesh.</p><p class=\"font-claude-response-body break-words whitespace-normal\">The Veilbind Draught was developed by witches who sought to obscure their targets' agency, rendering them pliant and helpless without the crude violence of blunt instruments. It is a tool of control, not death—a way to remake the victim's body into a vessel of limitation.</p></div>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 16
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "category": "other",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "spell": null
+  },
+  "_id": "lj8BuS6URIEQTJcF",
+  "img": "icons/consumables/potions/potion-bottle-labeled-stopped-purple.webp",
+  "folder": "CxTQCqebjDXmGAnC",
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!lj8BuS6URIEQTJcF"
+}

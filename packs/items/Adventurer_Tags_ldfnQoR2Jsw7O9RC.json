@@ -70,7 +70,7 @@
     "temporary": false
   },
   "img": "modules/elara/art/items/dog_tags.avif",
-  "folder": null,
+  "folder": "AvPKPSiNohkZTeZ3",
   "ownership": {
     "default": 0,
     "qp7L9geXBa6D8uvq": 3
@@ -80,11 +80,11 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.350",
+    "coreVersion": "14.364",
     "systemId": "pf2e",
     "systemVersion": "7.7.0"
   },
   "_id": "ldfnQoR2Jsw7O9RC",
-  "sort": 0,
+  "sort": 100000,
   "_key": "!items!ldfnQoR2Jsw7O9RC"
 }
