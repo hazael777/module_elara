@@ -73,6 +73,19 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "backgrounds",
+      "label": "Elara.Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "banner": "ui/banners/item-banner.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -87,7 +100,8 @@
         "feats",
         "macros",
         "items",
-        "deities"
+        "deities",
+        "backgrounds"
       ]
     }
   ],

@@ -1,0 +1,79 @@
+{
+  "name": "Auramancer",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Whether called aura, ki, chi, spirit, soul, or by countless other names across different cultures, every living creature radiates an invisible life force.</p><p>You devoted yourself to the study of this mysterious energy, learning to perceive its subtle flows and understand the principles that govern it.</p><p>While some Auramancers dedicate themselves to reading the auras of others, others learn to manifest their own life force into tangible form or suppress the energies of those around them.</p><p>Though your training has only introduced you to the fundamentals of this ancient discipline, it has granted you a unique perspective on the hidden currents that bind all living things.</p><p></p><p>Choose two attribute boosts. One must be to <strong>Wisdom</strong>, and one is a free attribute boost.</p><p>You're trained in the <strong>Aura Control</strong> skill and <strong>Aura Lore </strong>skill.</p><p>You gain the @UUID[Compendium.elara.feats.Item.HNUcleiLzOlNijpU]{Aura Control} skill feat.<br class=\"Apple-interchange-newline\"></p>"
+    },
+    "rules": [],
+    "slug": "auramancer",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Elara",
+      "authors": "Hazael",
+      "license": "OGL",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "2SdV9": {
+        "uuid": "Compendium.elara.feats.Item.HNUcleiLzOlNijpU",
+        "img": "icons/magic/control/debuff-energy-hold-teal-blue.webp",
+        "name": "Aura Control",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "aura-control"
+      ],
+      "lore": [
+        "Aura"
+      ]
+    }
+  },
+  "_id": "NclzGCHfsOaqvZAe",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "sort": 0,
+  "_key": "!items!NclzGCHfsOaqvZAe"
+}
