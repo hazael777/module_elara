@@ -1,0 +1,25 @@
+{
+  "name": "Umbral Dominion Difficult Terrain Effect",
+  "type": "script",
+  "command": "const REGION_NAME = \"Umbral Dominion\";\n\n// Find all matching Regions on the current canvas\nconst regions = canvas.regions.placeables\n    .map(placeable => placeable.document)\n    .filter(region => region.name === REGION_NAME);\n\nif (!regions.length) {\n    ui.notifications.warn(`No \"${REGION_NAME}\" regions found.`);\n    return;\n}\n\nlet added = 0;\n\nfor (const region of regions) {\n    // Don't add Difficult Terrain twice\n    const alreadyExists = region.behaviors.some(\n        behavior =>\n            behavior.type === \"modifyMovementCost\" &&\n            behavior.name === \"Difficult Terrain\"\n    );\n\n    if (alreadyExists) continue;\n\n    await region.createEmbeddedDocuments(\"RegionBehavior\", [{\n        name: \"Difficult Terrain\",\n        type: \"modifyMovementCost\",\n        system: {\n            difficulties: {\n                walk: 2,\n                fly: 1,\n                swim: 1,\n                burrow: 1,\n                deploy: 1,\n                travel: 1\n            }\n        },\n        disabled: false\n    }]);\n\n    added++;\n}\n\nif (added > 0) {\n    ui.notifications.info(\n        `Difficult Terrain applied to ${added} Umbral Dominion region${added === 1 ? \"\" : \"s\"}.`\n    );\n} else {\n    ui.notifications.info(\n        `All Umbral Dominion regions already have Difficult Terrain.`\n    );\n}",
+  "img": "icons/magic/control/debuff-energy-snare-blue.webp",
+  "_id": "F9iFlAt2XUzQXeAO",
+  "author": "5gbwR8UumxmHZULO",
+  "scope": "global",
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "pf2e",
+    "systemVersion": "8.4.0",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 200000,
+  "_key": "!macros!F9iFlAt2XUzQXeAO"
+}

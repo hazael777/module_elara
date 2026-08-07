@@ -5,7 +5,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You flood an @Template[type:burst|distance:25] area with hungry shadows that cling to creatures and twist their movements. The darkness becomes an extension of your will, reaching out to bind anyone who crosses into your domain.</p><p>All surfaces in the area are difficult terrain. Each round that a creature starts its turn in the area, it must attempt a Reflex save.</p><ul><li><p>On a <strong>failure</strong>, it takes a –10-foot circumstance penalty to its Speeds until it leaves the area.</p></li><li><p>On a <strong>critical failure</strong>, it's also becomes @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round.</p></li></ul><p>Creatures can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} to remove these effects.</p><p>@UUID[Compendium.elara.magic.Item.NMRyq0f3OoqUJz2G]{Spell Effect: Umbral Dominion}</p>"
+      "value": "<p>You flood an @Template[type:burst|distance:25] area with hungry shadows that cling to creatures and twist their movements. The darkness becomes an extension of your will, reaching out to bind anyone who crosses into your domain.</p><p>All surfaces in the area are difficult terrain. Each round that a creature starts its turn in the area, it must attempt a @Check[reflex|against:class-spell] save.</p><ul><li><p>On a <strong>failure</strong>, it takes a –10-foot circumstance penalty to its Speeds until it leaves the area.</p></li><li><p>On a <strong>critical failure</strong>, it's also becomes @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round.</p></li></ul><p>Creatures can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} to remove these effects.</p><p>@UUID[Compendium.elara.magic.Item.NMRyq0f3OoqUJz2G]{Spell Effect: Umbral Dominion}</p><p></p><p></p><div data-visibility=\"gm\"><p>GM:</p><p>@UUID[Compendium.elara.macros.Macro.F9iFlAt2XUzQXeAO]</p></div><p></p>"
     },
     "rules": [],
     "slug": "umbral-dominion",
@@ -72,9 +72,9 @@
   },
   "type": "spell",
   "_stats": {
-    "coreVersion": "14.364",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
-    "systemVersion": "8.2.0",
+    "systemVersion": "8.4.0",
     "exportSource": null,
     "compendiumSource": null,
     "duplicateSource": null

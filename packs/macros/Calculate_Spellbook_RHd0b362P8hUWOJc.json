@@ -8,7 +8,7 @@
   "folder": null,
   "flags": {},
   "_stats": {
-    "coreVersion": "14.361",
+    "coreVersion": "14.365",
     "systemId": "pf2e",
     "systemVersion": "8.1.2",
     "exportSource": null,
@@ -20,6 +20,6 @@
     "5gbwR8UumxmHZULO": 3
   },
   "_id": "RHd0b362P8hUWOJc",
-  "sort": 0,
+  "sort": 300000,
   "_key": "!macros!RHd0b362P8hUWOJc"
 }
