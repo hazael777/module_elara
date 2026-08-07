@@ -1,0 +1,84 @@
+{
+  "folder": null,
+  "img": "icons/magic/nature/root-vine-entangled-hand.webp",
+  "name": "Shadow Bind",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You pull at the shadows beneath your foe, twisting them into grasping tendrils that lash around their legs and arms. The darkness clings like a living thing, dragging at their movements and anchoring them to the ground.</p><p>@UUID[Compendium.elara.magic.Item.KytqfkpNsaKNJ132]{Spell Effect: Shadow Bind}</p><p></p><hr><p><strong>Critical Success</strong> The target gains the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} condition and takes a –10-foot circumstance penalty to its Speeds for 1 round. It can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} against your spell DC to remove the penalty and the immobilized condition.</p><p><strong>Success</strong> The target takes a –10-foot circumstance penalty to its Speeds for 1 round. It can attempt to Escape against your spell DC to remove the penalty.</p><p><strong>Failure</strong> The target is unaffected.</p><hr><p><strong>Heightened (2nd)</strong> The effects last for 2 rounds.</p><p><strong>Heightened (4th)</strong> The effects last for 1 minute.</p>"
+    },
+    "rules": [],
+    "slug": "shadow-bind",
+    "_migration": {
+      "version": 0.959,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "concentrate",
+        "darkness",
+        "manipulate",
+        "shadow"
+      ],
+      "rarity": "rare",
+      "traditions": [
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "type": "spell",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_id": "DGdb3fEDbNzQSJmC",
+  "sort": 0,
+  "_key": "!items!DGdb3fEDbNzQSJmC"
+}

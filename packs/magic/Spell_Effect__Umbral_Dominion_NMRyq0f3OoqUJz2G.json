@@ -1,0 +1,72 @@
+{
+  "img": "icons/magic/nature/root-vines-grow-brown.webp",
+  "name": "Spell Effect: Umbral Dominion",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.elara.magic.Item.9Eqcv6qXScnUkEip]{Umbral Dominion}</p><p>The creature takes a –10-foot circumstance penalty to its Speeds.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "level": {
+      "value": 2
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "all-speeds",
+        "type": "circumstance",
+        "value": -10
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-umbral-dominion",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_id": "NMRyq0f3OoqUJz2G",
+  "sort": 0,
+  "_key": "!items!NMRyq0f3OoqUJz2G"
+}

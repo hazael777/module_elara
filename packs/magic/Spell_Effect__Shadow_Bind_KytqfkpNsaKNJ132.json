@@ -1,0 +1,95 @@
+{
+  "img": "icons/magic/nature/root-vine-entangled-hand.webp",
+  "name": "Spell Effect: Shadow Bind",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.elara.magic.Item.DGdb3fEDbNzQSJmC]{Shadow Bind}</p><p>You take a –10-foot circumstance penalty to your Speeds. On a critical success, you are also immobilized.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.Check.Result.Degree.Check.success",
+            "value": "success"
+          },
+          {
+            "label": "PF2E.Check.Result.Degree.Check.criticalSuccess",
+            "value": "critical-success"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess",
+        "rollOption": "shadow-bind"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "all-speeds",
+        "type": "circumstance",
+        "value": -10
+      },
+      {
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "predicate": [
+          "shadow-bind:critical-success"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-shadow-bind",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "coreVersion": "14.364",
+    "systemId": "pf2e",
+    "systemVersion": "8.2.0",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "5gbwR8UumxmHZULO": 3
+  },
+  "flags": {},
+  "_id": "KytqfkpNsaKNJ132",
+  "sort": 0,
+  "_key": "!items!KytqfkpNsaKNJ132"
+}

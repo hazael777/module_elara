@@ -86,6 +86,19 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "magic",
+      "label": "Elara.Magic",
+      "path": "packs/magic",
+      "type": "Item",
+      "banner": "ui/banners/item-banner.webp",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -101,7 +114,8 @@
         "macros",
         "items",
         "deities",
-        "backgrounds"
+        "backgrounds",
+        "magic"
       ]
     }
   ],
