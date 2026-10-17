@@ -1,0 +1,88 @@
+{
+  "folder": "inE34VvhllV4sfj1",
+  "name": "Wraithstone (Gold Spark)",
+  "type": "treasure",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Soft yellow with a deep, quiet core. Even the dimmest is a small fortune.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "wraithstone-gold-spark",
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "category": null,
+    "containerId": null,
+    "equipped": {
+      "carryType": "worn"
+    },
+    "hardness": 0,
+    "hp": {
+      "max": 0,
+      "value": 0
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "level": {
+      "value": 13
+    },
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "price": {
+      "value": {
+        "gp": 185
+      },
+      "per": 1
+    },
+    "quantity": 1,
+    "size": "tiny",
+    "temporary": false
+  },
+  "img": "icons/commodities/gems/gem-rough-cushion-purple.webp",
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "pf2e",
+    "systemVersion": "8.6.1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "XxB0ORoACaDTLSuq",
+  "sort": 1000000,
+  "_key": "!items!XxB0ORoACaDTLSuq"
+}

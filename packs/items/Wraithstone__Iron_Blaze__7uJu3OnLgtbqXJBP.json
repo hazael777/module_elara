@@ -1,0 +1,88 @@
+{
+  "folder": "inE34VvhllV4sfj1",
+  "name": "Wraithstone (Iron Blaze)",
+  "type": "treasure",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Bright for its rank, with a clean core. Often mistaken for Bronze by careless buyers.</p><p></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "wraithstone-iron-spark",
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "category": null,
+    "containerId": null,
+    "equipped": {
+      "carryType": "worn"
+    },
+    "hardness": 0,
+    "hp": {
+      "max": 0,
+      "value": 0
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "level": {
+      "value": 4
+    },
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "price": {
+      "value": {
+        "gp": 4
+      },
+      "per": 1
+    },
+    "quantity": 1,
+    "size": "tiny",
+    "temporary": false
+  },
+  "img": "icons/commodities/gems/gem-rough-cushion-purple.webp",
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "pf2e",
+    "systemVersion": "8.6.1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "7uJu3OnLgtbqXJBP",
+  "sort": 1100000,
+  "_key": "!items!7uJu3OnLgtbqXJBP"
+}

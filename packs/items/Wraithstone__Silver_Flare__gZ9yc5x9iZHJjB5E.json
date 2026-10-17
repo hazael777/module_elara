@@ -1,0 +1,88 @@
+{
+  "folder": "inE34VvhllV4sfj1",
+  "name": "Wraithstone (Silver Flare)",
+  "type": "treasure",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Light moves visibly through it, like moonlight on water. Sought by artificers.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "wraithstone-silver-flare",
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "category": null,
+    "containerId": null,
+    "equipped": {
+      "carryType": "worn"
+    },
+    "hardness": 0,
+    "hp": {
+      "max": 0,
+      "value": 0
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "level": {
+      "value": 11
+    },
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "price": {
+      "value": {
+        "gp": 80
+      },
+      "per": 1
+    },
+    "quantity": 1,
+    "size": "tiny",
+    "temporary": false
+  },
+  "img": "icons/commodities/gems/gem-rough-cushion-purple.webp",
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "pf2e",
+    "systemVersion": "8.6.1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "gZ9yc5x9iZHJjB5E",
+  "sort": 400000,
+  "_key": "!items!gZ9yc5x9iZHJjB5E"
+}

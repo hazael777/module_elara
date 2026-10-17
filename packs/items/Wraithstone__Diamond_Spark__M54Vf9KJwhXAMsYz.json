@@ -1,0 +1,88 @@
+{
+  "folder": "inE34VvhllV4sfj1",
+  "name": "Wraithstone (Diamond Spark)",
+  "type": "treasure",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Glass-clear, with a single pinprick of light at its centre.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "wraithstone-diamond-spark",
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "category": null,
+    "containerId": null,
+    "equipped": {
+      "carryType": "worn"
+    },
+    "hardness": 0,
+    "hp": {
+      "max": 0,
+      "value": 0
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "level": {
+      "value": 17
+    },
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "price": {
+      "value": {
+        "gp": 960
+      },
+      "per": 1
+    },
+    "quantity": 1,
+    "size": "tiny",
+    "temporary": false
+  },
+  "img": "icons/commodities/gems/gem-rough-cushion-purple.webp",
+  "ownership": {
+    "default": 0,
+    "qp7L9geXBa6D8uvq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "pf2e",
+    "systemVersion": "8.6.1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "M54Vf9KJwhXAMsYz",
+  "sort": 500000,
+  "_key": "!items!M54Vf9KJwhXAMsYz"
+}
